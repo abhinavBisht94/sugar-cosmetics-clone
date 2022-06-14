@@ -1,7 +1,7 @@
 const { Router } = require('express')
 
 const productRouter = Router()
-const {Product} = require('../../index')
+const { Product } = require('../../index')
 
 console.log('came')
 

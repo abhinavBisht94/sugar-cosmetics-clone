@@ -3,43 +3,18 @@ const express = require('express')
 const cors = require('cors')
 require('dotenv').config()
 
-const mongoose = require('mongoose')
 const authRouter = require('./routes/auth/auth')
 const cartRouter = require('./routes/Cart/cart')
 const paymentRouter = require('./routes/Payment/payment')
 const productRouter = require('./routes/Product/product')
 
+const { connection, Product } = require('./db')
+
 const app = express()
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8080
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 app.use(cors())
-
-const connection = mongoose.connect(process.env.database)
-
-const productSchema = new mongoose.Schema({
-  prodEyesHeading: String,
-  prodEyesBanner:String,
-  Title: { type: String, required: true },
-  ImageUrl: { type: String, required: true },
-  Rating: { type: Number, required: true },
-  Price: { type: Number, required: true },
-  category: { type: String, required: true },
-  Currency: { type: String, enum: ['$', '₹'] },
-
-  types: [
-    {
-      title: String,
-      image: String,
-      secondary_title: String,
-    },
-  ],
-})
-
-const Product = mongoose.model('product', productSchema)
-console.log(Product, 'index product model')
-
-
 
 // app.post('/product/new', async (req, res) => {
 //   console.log('it is coming')
@@ -67,4 +42,3 @@ app.listen(PORT, async () => {
   console.log('Server  Starts at http://localhost:8080/')
 })
 
-module.exports = { Product }
