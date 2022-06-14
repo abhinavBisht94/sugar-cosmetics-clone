@@ -1,0 +1,28 @@
+#prodData {
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+  margin: auto;
+  width: 80%;
+
+  text-align: center;
+}
+
+#prodDataPath {
+  margin-left: 3rem;
+  margin-bottom: 4rem;
+}
+#prodDataPath div {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+#prodDataImage {
+  width: 12rem;
+}
+
+#prodDataStar {
+  width: 1rem;
+}
