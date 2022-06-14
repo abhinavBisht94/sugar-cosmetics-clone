@@ -1,9 +1,9 @@
 {
-  "prodEyesBanner": "https://d32baadbbpueqt.cloudfront.net/Collection/8564fe21-69ee-453b-a128-e19be3c279b5.jpg",
-  "prodEyesHeading": "Eye makeup",
   "prodEyes": [
     {
       "id": 1,
+      "prodEyesHeading": "Eye makeup",
+      "prodEyesBanner": "https://d32baadbbpueqt.cloudfront.net/Collection/8564fe21-69ee-453b-a128-e19be3c279b5.jpg",
       "Title": "main title",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
       "Rating": "5.5",
@@ -20,6 +20,8 @@
     },
     {
       "id": 2,
+      "prodEyesHeading": "Eye makeup",
+      "prodEyesBanner": "https://d32baadbbpueqt.cloudfront.net/Collection/8564fe21-69ee-453b-a128-e19be3c279b5.jpg",
       "Title": "main title",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
       "Rating": "5.5",
@@ -36,6 +38,8 @@
     },
     {
       "id": 3,
+      "prodEyesHeading": "Eye makeup",
+      "prodEyesBanner": "https://d32baadbbpueqt.cloudfront.net/Collection/8564fe21-69ee-453b-a128-e19be3c279b5.jpg",
       "Title": "main title",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
       "Rating": "5.5",
@@ -52,6 +56,8 @@
     },
     {
       "id": 4,
+      "prodEyesHeading": "Eye makeup",
+      "prodEyesBanner": "https://d32baadbbpueqt.cloudfront.net/Collection/8564fe21-69ee-453b-a128-e19be3c279b5.jpg",
       "Title": "main title",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
       "Rating": "5.5",
@@ -68,6 +74,8 @@
     },
     {
       "id": 5,
+      "prodEyesHeading": "Eye makeup",
+      "prodEyesBanner": "https://d32baadbbpueqt.cloudfront.net/Collection/8564fe21-69ee-453b-a128-e19be3c279b5.jpg",
       "Title": "main title",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
       "Rating": "5.5",
@@ -84,6 +92,8 @@
     },
     {
       "id": 6,
+      "prodEyesHeading": "Eye makeup",
+      "prodEyesBanner": "https://d32baadbbpueqt.cloudfront.net/Collection/8564fe21-69ee-453b-a128-e19be3c279b5.jpg",
       "Title": "main title",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
       "Rating": "5.5",
@@ -100,6 +110,8 @@
     },
     {
       "id": 7,
+      "prodEyesHeading": "Eye makeup",
+      "prodEyesBanner": "https://d32baadbbpueqt.cloudfront.net/Collection/8564fe21-69ee-453b-a128-e19be3c279b5.jpg",
       "Title": "main title",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
       "Rating": "5.5",
@@ -116,6 +128,8 @@
     },
     {
       "id": 8,
+      "prodEyesHeading": "Eye makeup",
+      "prodEyesBanner": "https://d32baadbbpueqt.cloudfront.net/Collection/8564fe21-69ee-453b-a128-e19be3c279b5.jpg",
       "Title": "main title",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
       "Rating": "5.5",
@@ -132,6 +146,8 @@
     },
     {
       "id": 9,
+      "prodEyesHeading": "Eye makeup",
+      "prodEyesBanner": "https://d32baadbbpueqt.cloudfront.net/Collection/8564fe21-69ee-453b-a128-e19be3c279b5.jpg",
       "Title": "main title",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
       "Rating": "5.5",
@@ -148,6 +164,8 @@
     },
     {
       "id": 10,
+      "prodEyesHeading": "Eye makeup",
+      "prodEyesBanner": "https://d32baadbbpueqt.cloudfront.net/Collection/8564fe21-69ee-453b-a128-e19be3c279b5.jpg",
       "Title": "main title",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
       "Rating": "5.5",

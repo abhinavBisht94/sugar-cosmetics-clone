@@ -10,8 +10,8 @@ export const Products = ({ data }) => {
       <img
         width="100%"
         height="250rem"
-        src={data.prodEyesBanner}
-        alt={data.prodEyesHeading}
+        src={data.prodEyes[0].prodEyesBanner}
+        alt={data.prodEyes[0].prodEyesHeading}
       />
 
       {/* div to show path of the page */}
@@ -23,11 +23,11 @@ export const Products = ({ data }) => {
             alt="Home icon"
           />
           <p>/ Makeup</p>
-          <p>/ {data.prodEyesHeading}</p>
+          <p>/ {data.prodEyes[0].prodEyesHeading}</p>
         </div>
 
         <p>
-          {data.prodEyesHeading} - {data.prodEyes.length} items
+          {data.prodEyes[0].prodEyesHeading} - {data.prodEyes.length} items
         </p>
       </div>
 
