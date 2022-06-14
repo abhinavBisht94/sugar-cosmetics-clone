@@ -1,0 +1,166 @@
+{
+  "prodEyesBanner": "https://d32baadbbpueqt.cloudfront.net/Collection/8564fe21-69ee-453b-a128-e19be3c279b5.jpg",
+  "prodEyesHeading": "Eye makeup",
+  "prodEyes": [
+    {
+      "id": 1,
+      "Title": "main title",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+      "Rating": "5.5",
+      "Price": "500",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "Title": "main title",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+      "Rating": "5.5",
+      "Price": "500",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "Title": "main title",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+      "Rating": "5.5",
+      "Price": "500",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "Title": "main title",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+      "Rating": "5.5",
+      "Price": "500",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "Title": "main title",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+      "Rating": "5.5",
+      "Price": "500",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "Title": "main title",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+      "Rating": "5.5",
+      "Price": "500",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "Title": "main title",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+      "Rating": "5.5",
+      "Price": "500",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "Title": "main title",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+      "Rating": "5.5",
+      "Price": "500",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "Title": "main title",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+      "Rating": "5.5",
+      "Price": "500",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "Title": "main title",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+      "Rating": "5.5",
+      "Price": "500",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    }
+  ]
+}
