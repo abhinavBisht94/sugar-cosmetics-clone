@@ -1,0 +1,16 @@
+Backend
+    Login/Signup (POST,GET)
+    prouduct (GET,{POST (Backend)})
+    Cart (GET,POST,UPDATE,DELETE)
+    Payment
+
+
+
+Frontend
+    HomePage - P Naga
+    Nav/Footer - Akshay
+    Login/Signup - Yogesh
+    Product Page - Abhinav
+    Product View - Abhinav
+    Cart/Address - Chiranjit
+    Payments Page - Chiranjit
