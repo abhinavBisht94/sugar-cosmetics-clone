@@ -1,7 +1,7 @@
 const { Router } = require('express')
 
 const productRouter = Router()
-const { Product } = require('../../index')
+const { Product } = require('../../db')
 
 console.log('came')
 
@@ -16,10 +16,7 @@ productRouter.post('/new', async (req, res) => {
   // console.log(Product, 'model')
   const product = await Product(req.body)
 
-  product.save((err, data) => {
-    if (err) res.send(err)
-    res.send(data)
-  })
+  product.save().then((data)=>res.send(data)).catch((e)=>res.send(e))
 })
 
 module.exports = productRouter
