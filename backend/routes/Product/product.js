@@ -10,7 +10,7 @@ productRouter.get('/new', (req, res) => {
 })
 
 productRouter.post('/new', async (req, res) => {
-  console.log('it is coming')
+  // console.log('it is coming')
   // const body = req.body
   // console.log(body)
   // console.log(Product, 'model')
