@@ -1,9 +1,9 @@
-import "./App.css";
-import db from "./API/db.json";
-import prodEyes from "./API/prodEyes.json";
-import { Products } from "./pages/Products";
-import Navbar from "./components/Navbar/Navbar";
-import Footer from "./components/Footer/Footer";
+import './App.css'
+import db from './API/db.json'
+import { Products } from './pages/Products'
+import Navbar from './components/Navbar/Navbar'
+import Footer from './components/Footer/Footer'
+import { Home } from './components/Home/home'
 
 function App() {
   return (
@@ -11,11 +11,11 @@ function App() {
       <Navbar />
 
       {/* <Products data={db}></Products> */}
-      <Products data={prodEyes}></Products>
-
+      {/* <Navbar /> */}
+      <Home />
       <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

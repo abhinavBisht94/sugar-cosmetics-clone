@@ -1,0 +1,45 @@
+.addDiv_home {
+  font-family: Quicksand;
+  background-color: #212529;
+  font-size: 13px;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  width: 261.5px;
+  height: 40px;
+}
+.ProductSwiper  {
+  width: 80vw !important;
+  margin: auto !important;
+  z-index: -1;
+}
+
+
+
+
+.productsDiv_individual_home_first > img {
+  width: 183px;
+  height: 250px;
+  display: block;
+  margin: 20px auto;
+}
+.productsDiv_individual_home_first {
+  width: 261.5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.title_products_home {
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 13px;
+  text-align: center;
+}
+.currencyDiv_products_home {
+  display: flex;
+}
+.currencyDiv_products_home div {
+  display: flex;
+  text-align: center;
+  font-weight: 800;
+  width: fit-content;
+  margin: 10px auto;
+}

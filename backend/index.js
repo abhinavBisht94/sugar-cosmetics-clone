@@ -41,4 +41,3 @@ app.listen(PORT, async () => {
   }
   console.log('Server  Starts at http://localhost:8080/')
 })
-

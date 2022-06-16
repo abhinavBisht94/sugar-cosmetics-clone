@@ -1,0 +1,103 @@
+.mainslider_img {
+  height: 50vh;
+  width: 100vw;
+}
+.ReferFriends_home,
+.AIR_KISS_POWDER_HOME,
+.allHeads_home {
+  font-family: Quicksand;
+  font-size: 2rem;
+  font-weight: 300;
+  text-decoration: none solid rgb(31 31 31);
+  text-align: center;
+  color: #1f1f1f;
+  margin: 2rem;
+}
+.ReferFriends_home:hover {
+  outline: rgb(255 0 0) dashed 1px;
+}
+.referImage_home > img {
+  width: 90vw;
+  height: 50vh;
+}
+.referImage_home {
+  display: flex;
+  justify-content: center;
+}
+
+/* .swiper-pagination-bullets {
+  position: absolute;
+  top: 340px;
+} */
+.AIR_KISS_POWDER_VIDEO_HOME > iframe {
+  display: block;
+  margin: auto;
+  width: 80vw;
+}
+.AIR_KISS_POWDER_VIDEO_HOME {
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  justify-content: center !important;
+}
+
+.ThisOrThat_home {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+.ThisOrThat_home > img {
+  height: 45vh;
+  width: 40vw;
+}
+
+@media screen and (max-width: 1000px) {
+  .mainslider_img {
+    height: 30vh;
+  }
+  .referImage_home > img {
+    height: 30vh;
+  }
+  .ReferFriends_home,
+  .AIR_KISS_POWDER_HOME,
+  .allHeads_home {
+    font-size: 1.5rem;
+    margin: 1.5rem;
+  }
+  .ThisOrThat_home > img {
+    height: 35vh;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .mainslider_img {
+    height: 20vh;
+  }
+  .referImage_home > img {
+    height: 20vh;
+  }
+  .ReferFriends_home,
+  .AIR_KISS_POWDER_HOME,
+  .allHeads_home {
+    font-size: 1rem;
+    margin: 1rem;
+  }
+  .ThisOrThat_home > img {
+    height: 20vh;
+  }
+}
+
+.mySwiper{
+  z-index:-1 !important;
+
+}
+
+
+@media screen and (max-width: 640px) {
+  #productsSlider .swiper-slide-active {
+    /* padding-left: 150px !important; */
+
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
