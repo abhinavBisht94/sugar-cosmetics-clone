@@ -17,6 +17,7 @@ import Typography from "@mui/material/Typography";
 import IconButton from "@mui/material/IconButton";
 import { Drawer } from "@mui/material";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
+import SubNavbar from "./SubNavbar";
 // import Search from "./Search";
 
 const mobileTheme = createTheme({
@@ -69,6 +70,8 @@ const Navbar = () => {
           <MdLocalOffer />
         </div>
       </nav>
+
+      <SubNavbar />
 
       {/* Mobile View */}
 
