@@ -13,7 +13,7 @@ function App() {
       {/* <Products data={db}></Products> */}
       {/* <Navbar /> */}
       <Home />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }

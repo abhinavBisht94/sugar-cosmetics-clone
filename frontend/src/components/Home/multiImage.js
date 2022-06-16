@@ -45,6 +45,7 @@ export default function MultiImage({ arr }) {
         navigation={true}
         modules={[Pagination, Navigation]}
         className="mySwiper"
+        id="multiImageSlider"
         
       >
         {arr.map((elm, index) => (

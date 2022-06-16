@@ -11,7 +11,9 @@
 .ProductSwiper  {
   width: 80vw !important;
   margin: auto !important;
+  z-index: -1;
 }
+
 
 
 

@@ -87,6 +87,12 @@
   }
 }
 
+.mySwiper{
+  z-index:-1 !important;
+
+}
+
+
 @media screen and (max-width: 640px) {
   #productsSlider .swiper-slide-active {
     /* padding-left: 150px !important; */
