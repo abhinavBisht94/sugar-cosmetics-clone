@@ -1,3 +1,13 @@
+#prodDataPath {
+  margin-left: 3rem;
+  margin-bottom: 4rem;
+}
+#prodDataPath div {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
 #prodData {
   /* border: 1px solid red; */
   display: grid;
@@ -9,14 +19,22 @@
   text-align: center;
 }
 
-#prodDataPath {
-  margin-left: 3rem;
-  margin-bottom: 4rem;
-}
-#prodDataPath div {
+#prodDataElem {
   display: flex;
-  gap: 1rem;
-  margin-bottom: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#prodDataElem:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+#prodData div p:nth-child(2) {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.2rem;
+  color: hsl(0, 0%, 50%);
 }
 
 #prodDataImage {
@@ -25,4 +43,33 @@
 
 #prodDataStar {
   width: 1rem;
+}
+
+#prodDataHover {
+  display: flex;
+  width: 100%;
+  visibility: hidden;
+}
+
+#prodDataHover div {
+  width: 30%;
+  height: 2rem;
+  border: 1px solid hsl(210, 11%, 15%);
+}
+
+#prodDataHover img {
+  width: 1rem;
+  vertical-align: middle;
+}
+
+#prodDataHover button {
+  width: 70%;
+  height: 2rem;
+  background-color: hsl(210, 11%, 15%);
+  border: 1px solid hsl(210, 11%, 15%);
+  color: white;
+}
+
+#prodDataElem:hover #prodDataHover {
+  visibility: visible;
 }

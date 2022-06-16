@@ -1,0 +1,67 @@
+.app__sub-navbar {
+  background: #fff;
+}
+
+@media screen and (max-width: 850px) {
+  .app__sub-navbar {
+    background: #fff;
+    display: none;
+  }
+}
+
+.app__sub-navbar > ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #999;
+}
+
+.app__sub-navbar > ul > li .menu-link {
+  color: inherit;
+  text-decoration: none;
+  line-height: 3rem;
+  position: relative;
+  cursor: default;
+}
+
+.app__sub-navbar > ul > li .menu-link > span:hover {
+  cursor: pointer;
+  text-shadow: 1px 1px 5px rgb(128, 128, 128);
+}
+
+.app__sub-navbar > ul > li .menu {
+  /* border: 2px solid; */
+  margin: 0 2rem;
+}
+
+.app__sub-navbar > ul > li .dropdown-menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+
+.app__sub-navbar > ul > li .menu:hover .dropdown-menu {
+  background: #fff;
+  display: flex;
+  width: 150px;
+  flex-direction: column;
+  position: absolute;
+  z-index: 1;
+}
+
+.app__sub-navbar > ul > li .dropdown-items {
+  text-decoration: none;
+  color: inherit;
+  margin: 0.5rem 0;
+  padding: 0 0.5rem;
+}
+
+.app__sub-navbar > ul > li .dropdown-items:hover {
+  text-decoration: none;
+  color: #000;
+  background: #cdcdcd75;
+}

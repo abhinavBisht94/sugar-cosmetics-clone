@@ -1,0 +1,1085 @@
+{
+  "prodEyes": [
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe637"
+      },
+      "prodEyesBanner": "https://d32baadbbpueqt.cloudfront.net/Collection/8564fe21-69ee-453b-a128-e19be3c279b5.jpg",
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+      "Title": "Kohl Of Honour Intense Kajal - 01 Black Out (Black)",
+      "Price": "Rs.249",
+      "Rating": "4.8",
+      "RatingTotal": "(97)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe638"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_59809bd6-49ef-4c6b-b262-47002bedc963.jpg?v=1639755559",
+      "Title": "Blend The Rules Eyeshadow Palette",
+      "Price": "Rs.1199",
+      "Rating": "4.8",
+      "RatingTotal": "(96)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe639"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/1_1bde8549-cb5e-40e8-8779-83e8c0aae451.jpg?v=1638445456",
+      "Title": "Two Good To Be True Dual Eyeshadow",
+      "Price": "Rs.499",
+      "Rating": "5",
+      "RatingTotal": "(20)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe63a"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-gloss-boss-24hr-eyeliner-01-back-in-black-black-12771395436627_a805d7b4-0863-4ae0-9f15-a2292ae9aa93.jpg?v=1632210594",
+      "Title": "Gloss Boss 24HR Eyeliner - 01 Back In Black (Black)",
+      "Price": "Rs.499",
+      "Rating": "4.8",
+      "RatingTotal": "(23)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe63b"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/1_30afa1e4-ceba-4cf0-bf6f-d6e6af88d7af.jpg?v=1634053475",
+      "Title": "Eye Love Jelly Eyeshadow",
+      "Price": "Rs.299",
+      "Rating": "4.9",
+      "RatingTotal": "(15)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe63c"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-uptown-curl-lengthening-mascara-01-black-beauty-black-28122637828179.jpg?v=1619106532",
+      "Title": "Uptown Curl Lengthening Mascara - 01 Black Beauty (Black)",
+      "Price": "Rs.499",
+      "Rating": "4.8",
+      "RatingTotal": "(81)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe63d"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/1_dfe1216c-0850-458c-8838-0abd46fd57e1.jpg?v=1640676576",
+      "Title": "Arch Arrival Brow Definer - 01 Jerry Brown (Medium Brown)",
+      "Price": "Rs.499",
+      "Rating": "4.3",
+      "RatingTotal": "(11)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe63e"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-warned-you-so-double-matte-eyeliner-01-black-swan-black-13954562654291.jpg?v=1619116881",
+      "Title": "Eye Warned You So! Double Matte Eyeliner",
+      "Price": "Rs.699",
+      "Rating": "4.8",
+      "RatingTotal": "(57)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe63f"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-warned-you-so-double-matte-eyeliner-01-black-swan-black-12771272261715.jpg?v=1619103165",
+      "Title": "Eye Warned You So! Double Matte Eyeliner - 01 Black Swan (Black)",
+      "Price": "Rs.699",
+      "Rating": "4.6",
+      "RatingTotal": "(14)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe640"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/Double-Date-Extreme-Volume-Mascara-Powered-by-Images-1025x1400-1.jpg?v=1636386431",
+      "Title": "Double Date Extreme Volume Mascara Duo - 01 Blackjack",
+      "Price": "Rs.799",
+      "Rating": "4.8",
+      "RatingTotal": "(17)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe641"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/1_9909d205-c5f9-476d-9903-c4beffbfebb7.jpg?v=1637068160",
+      "Title": "Arch Arrival Brow Pen",
+      "Price": "Rs.499",
+      "Rating": "4.6",
+      "RatingTotal": "(18)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe642"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_391c6f1e-6a8e-4d3f-a5c2-c5bd618e8580.jpg?v=1639755524",
+      "Title": "Blend The Rules Eyeshadow Palette - 03 Fantasy (Mauve)",
+      "Price": "Rs.1199",
+      "Rating": "5",
+      "RatingTotal": "(5)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe643"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_7816b797-71de-432d-9162-1f950806770a.jpg?v=1641223993",
+      "Title": "Born To Wing Gel Eyeliner - 01 Blackmagic Woman (Black)",
+      "Price": "Rs.599",
+      "Rating": "4.6",
+      "RatingTotal": "(11)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe644"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-arch-arrival-brow-powder-14753953644627.jpg?v=1619120283",
+      "Title": "Arch Arrival Brow Powder",
+      "Price": "Rs.499",
+      "Rating": "4.7",
+      "RatingTotal": "(25)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe645"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/1_60aeafc9-9883-4165-ad23-f2a37c65fa96.jpg?v=1640676630",
+      "Title": "Arch Arrival Brow Definer - 02 Taupe Tom (Grey Brown)",
+      "Price": "Rs.499",
+      "Rating": "4.3",
+      "RatingTotal": "(15)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe646"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-lit-you-so-vivid-eyeliner-01-pink-sphinx-bright-pink-27939452452947.jpg?v=1619153599",
+      "Title": "Eye Lit You So! Vivid Eyeliner",
+      "Price": "Rs.699",
+      "Rating": "4.8",
+      "RatingTotal": "(27)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe647"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-wingman-waterproof-microliner-01-i-ll-be-black-black-28163915841619.jpg?v=1619117351",
+      "Title": "Wingman Waterproof Microliner - 01 I'll Be Black (Black)",
+      "Price": "Rs.499",
+      "Rating": "4.7",
+      "RatingTotal": "(169)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe648"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-arrested-for-overstay-waterproof-eyeliner-01-i-ll-be-black-black-12784884973651.jpg?v=1619101912",
+      "Title": "Arrested For Overstay Waterproof Eyeliner - 01 I'll Be Black (Black)",
+      "Price": "Rs.899",
+      "Rating": "4.7",
+      "RatingTotal": "(20)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe649"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_d33d4c51-bd20-430d-9cd0-aff37b51633c.jpg?v=1639755504",
+      "Title": "Blend The Rules Eyeshadow Palette - 02 Warrior (Smokey)",
+      "Price": "Rs.1199",
+      "Rating": "5",
+      "RatingTotal": "(1)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe64a"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_0fa12791-2d87-4386-9633-fe0dea75cf8f.jpg?v=1639755487",
+      "Title": "Blend The Rules Eyeshadow Palette - 01 Flawless (Warm Neutrals)",
+      "Price": "Rs.1199",
+      "Rating": "4.8",
+      "RatingTotal": "(10)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe64b"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-told-you-so-smudgeproof-eyeliner-01-black-swan-black-12771271049299.jpg?v=1619100648",
+      "Title": "Eye Told You So! Smudgeproof Eyeliner - 01 Black Swan (Black)",
+      "Price": "Rs.699",
+      "Rating": "4.6",
+      "RatingTotal": "(242)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe64c"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-told-you-so-smudgeproof-eyeliner-01-black-swan-black-13760408584275.jpg?v=1619116364",
+      "Title": "Eye Told You So! Smudgeproof Eyeliner",
+      "Price": "Rs.699",
+      "Rating": "4.7",
+      "RatingTotal": "(35)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe64d"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/1_a0e70fd4-3cf1-4e9d-8345-634c86971469.jpg?v=1639582432",
+      "Title": "Stroke Of Genius Heavy-duty Kohl - 01 Back To Black (Black)",
+      "Price": "Rs.499",
+      "Rating": "4.8",
+      "RatingTotal": "(31)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe64e"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-stroke-of-genius-combo-15283687293011.jpg?v=1619123113",
+      "Title": "Stroke Of Genius Heavy Duty Kohl Combo",
+      "Price": "Rs.599",
+      "Rating": "4.8",
+      "RatingTotal": "(16)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe64f"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-graphic-jam-36hr-eyeliner-01-blackest-black-15278933278803.jpg?v=1619123100",
+      "Title": "Graphic Jam 36HR Eyeliner - 01 Blackest Black",
+      "Price": "Rs.699",
+      "Rating": "4.9",
+      "RatingTotal": "(26)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe650"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/1_6a5fa1af-0d0e-4e9e-85d1-579495fb5030.jpg?v=1648482145",
+      "Title": "Arch Arrival Micro Brow Pencil",
+      "Price": "Rs.499",
+      "Rating": "(5.0)",
+      "RatingTotal": "(5)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe651"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-arch-arrival-3-in-1-brow-shaper-02-taupe-tom-grey-brown-28122561052755_667218d2-eb64-4933-87f0-31e23808898f.jpg?v=1645526316",
+      "Title": "Arch Arrival 3-in-1 Brow Shaper",
+      "Price": "Rs.599",
+      "Rating": "4.7",
+      "RatingTotal": "(11)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe652"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-lit-you-so-vivid-eyeliner-01-pink-sphinx-27938773631059.jpg?v=1619153437",
+      "Title": "Eye Lit You So! Vivid Eyeliner - 01 Pink Sphinx (Bright Pink)",
+      "Price": "Rs.699",
+      "Rating": "4.0",
+      "RatingTotal": "(1)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe653"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/1_7194c993-55ca-40dd-ad41-ce1f40037293.jpg?v=1648222945",
+      "Title": "Arch Arrival Micro Brow Pencil - 01 Jerry Brow",
+      "Price": "Rs.499",
+      "Rating": "5",
+      "RatingTotal": "(1)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe654"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-twist-and-shout-fadeproof-kajal-02-still-got-the-blues-dark-blue-12771572187219_40970186-afbf-4e5a-a346-f61273099a7a.jpg?v=1632208792",
+      "Title": "Twist And Shout Fadeproof Kajal - 02 Still Got The Blues (Dark Blue)",
+      "Price": "Rs.399",
+      "Rating": "4.7",
+      "RatingTotal": "(3)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe655"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/1_cbe39f4e-85f9-4d59-a27f-1933f693fd32.jpg?v=1648482119",
+      "Title": "Arch Arrival Micro Brow Pencil - 02 Taupe Tom",
+      "Price": "Rs.499",
+      "Rating": "(5.0)",
+      "RatingTotal": "(5)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe656"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-lit-you-so-vivid-eyeliner-02-orange-honey-27938794602579.jpg?v=1619153448",
+      "Title": "Eye Lit You So! Vivid Eyeliner - 02 Orange Honey (Bright Orange)",
+      "Price": "Rs.699",
+      "Rating": "5",
+      "RatingTotal": "(1)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe657"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-lit-you-so-vivid-eyeliner-04-yellow-bird-27938825961555.jpg?v=1619153469",
+      "Title": "Eye Lit You So! Vivid Eyeliner - 04 Yellow Bird (Pastel Yellow)",
+      "Price": "Rs.699",
+      "Rating": "4.0",
+      "RatingTotal": "(1)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe658"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-lit-you-so-vivid-eyeliner-05-green-ray-27938831269971.jpg?v=1619153479",
+      "Title": "Eye Lit You So! Vivid Eyeliner - 05 Green Ray (Mint Green)",
+      "Price": "Rs.699",
+      "Rating": "5",
+      "RatingTotal": "(2)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe659"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-twist-and-shout-fadeproof-kajal-01-black-velvet-black-12771571433555_7f6a68fc-aa43-4788-a234-e2c1febc622a.jpg?v=1632208581",
+      "Title": "Twist And Shout Fadeproof Kajal - 01 Black Velvet (Black)",
+      "Price": "Rs.399",
+      "Rating": "(5.0)",
+      "RatingTotal": "(5)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe65a"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-lit-you-so-vivid-eyeliner-06-white-heat-bright-white-28122569998419.jpg?v=1619153489",
+      "Title": "Eye Lit You So! Vivid Eyeliner - 06 White Heat (Bright White)",
+      "Price": "Rs.699",
+      "Rating": "4.6",
+      "RatingTotal": "(5)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe65b"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-twist-and-shout-fadeproof-kajal-02-still-got-the-blues-dark-blue-12771572187219.jpg?v=1619100597",
+      "Title": "Twist And Shout Fadeproof Kajal - 02 Still Got The Blues (Dark Blue)",
+      "Price": "Rs.199",
+      "Rating": "4.7",
+      "RatingTotal": "(84)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe65c"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-lash-mob-limitless-mascara-01-black-with-a-bang-black-12775589871699.jpg?v=1619100706",
+      "Title": "Lash Mob Limitless Mascara - 01 Black With A Bang (Black)",
+      "Price": "Rs.799",
+      "Rating": "4.7",
+      "RatingTotal": "(41)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe65d"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/1_b659ec87-4f20-4ee0-a315-6ea961e72cb7.jpg?v=1639582914",
+      "Title": "Stroke Of Genius Heavy-Duty Kohl - 03 Green Light (Green)",
+      "Price": "Rs.299",
+      "Rating": "5",
+      "RatingTotal": "(3)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe65e"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/1_1bc2ee85-764e-4fe9-a38c-a4b2fb38880a.jpg?v=1639582935",
+      "Title": "Stroke Of Genius Heavy-Duty Kohl - 04 Blue Suede Shoes (Royal Blue)",
+      "Price": "Rs.499",
+      "Rating": "5",
+      "RatingTotal": "(2)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe65f"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-dared-you-so-metallic-eyeliner-01-bronze-horseman-metallic-coppery-bronze-12784932651091.jpg?v=1619108771",
+      "Title": "Eye Dared You So! Metallic Eyeliner - 01 Bronze Horseman (Metallic Coppery Bronze)",
+      "Price": "Rs.699",
+      "Rating": "4.8",
+      "RatingTotal": "(4)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe660"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-dared-you-so-metallic-eyeliner-02-purple-pirate-metallic-purple-12784932847699.jpg?v=1619108783",
+      "Title": "Eye Dared You So! Metallic Eyeliner - 02 Purple Pirate (Metallic Purple)",
+      "Price": "Rs.349",
+      "Rating": "4.2",
+      "RatingTotal": "(5)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe661"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/1_55d1e2d5-4711-4d11-bfa4-dabaee680f1e.jpg?v=1639583910",
+      "Title": "Stroke Of Genius Heavy-Duty Kohl - 08 Brown Eyed Girl (Walnut Brown)",
+      "Price": "Rs.499",
+      "Rating": "5",
+      "RatingTotal": "(1)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe662"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_d54e1e7b-eda6-409a-9436-3d9549502d1f.jpg?v=1641224163",
+      "Title": "Born To Wing Gel Eyeliner - 04 Purple Haze (Grape Purple)",
+      "Price": "Rs.299",
+      "Rating": "4.5",
+      "RatingTotal": "(4)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe663"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-told-you-so-smudgeproof-eyeliner-02-blue-valentine-blue-13760282755155.jpg?v=1619116330",
+      "Title": "Eye Told You So! Smudgeproof Eyeliner - 02 Blue Valentine (Midnight Blue)",
+      "Price": "Rs.349",
+      "Rating": "5",
+      "RatingTotal": "(7)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe664"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-told-you-so-smudgeproof-eyeliner-03-green-lantern-green-13760284459091.jpg?v=1619116342",
+      "Title": "Eye Told You So! Smudgeproof Eyeliner - 03 Green Lantern (Chrome Green)",
+      "Price": "Rs.349",
+      "Rating": "(5.0)",
+      "RatingTotal": "(5)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe665"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-told-you-so-smudgeproof-eyeliner-04-foxy-brown-brown-13760285376595.jpg?v=1619116354",
+      "Title": "Eye Told You So! Smudgeproof Eyeliner - 04 Foxy Brown (Ashy Brown)",
+      "Price": "Rs.349",
+      "Rating": "3.3",
+      "RatingTotal": "(3)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe666"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-warned-you-so-double-matte-eyeliner-02-blue-jasmine-royal-blue-13954492170323.jpg?v=1619116841",
+      "Title": "Eye Warned You So! Double Matte Eyeliner - 02 Blue Jasmine (Royal Blue)",
+      "Price": "Rs.349",
+      "Rating": "4.5",
+      "RatingTotal": "(10)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe667"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-warned-you-so-double-matte-eyeliner-03-green-book-marsh-green-13954500100179.jpg?v=1619116854",
+      "Title": "Eye Warned You So! Double Matte Eyeliner - 03 Green Book (Marsh Green)",
+      "Price": "Rs.349",
+      "Rating": "5",
+      "RatingTotal": "(22)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe668"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-warned-you-so-double-matte-eyeliner-04-coffee-shop-dark-chocolate-brown-13954516123731.jpg?v=1619116868",
+      "Title": "Eye Warned You So! Double Matte Eyeliner - 04 Coffee Shop (Dark Chocolate Brown)",
+      "Price": "Rs.349",
+      "Rating": "4.6",
+      "RatingTotal": "(11)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe669"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-lit-you-so-vivid-eyeliner-03-lilac-dream-pastel-lavender-28122570686547.jpg?v=1619153458",
+      "Title": "Eye Lit You So! Vivid Eyeliner - 03 Lilac Dream (Pastel Lavender)",
+      "Price": "Rs.699",
+      "Rating": "5",
+      "RatingTotal": "(2)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe66a"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-wonder-woman-mixed-palette-01-cosmos-conqueror-27982322630739.jpg?v=1619155515",
+      "Title": "Wonder Woman Mixed Palette - 01 Cosmos Conqueror",
+      "Price": "Rs.999",
+      "Rating": "4.7",
+      "RatingTotal": "(14)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe66b"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-wonder-woman-mixed-palette-02-primal-president-27982326628435.jpg?v=1619155537",
+      "Title": "Wonder Woman Mixed Palette - 02 Primal President",
+      "Price": "Rs.999",
+      "Rating": "4.7",
+      "RatingTotal": "(54)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62a98413ab2a4a8f5eafe66c"
+      },
+      "prodEyesHeading": "Eye makeup",
+      "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/1_29d62649-64ef-4647-8f5f-4c795522d8c4.jpg?v=1639585091",
+      "Title": "Stroke Of Genius Heavy-Duty Kohl - 07 Peacock (Peacock Green/ Velvet Green)",
+      "Price": "Rs.499",
+      "Rating": "5",
+      "RatingTotal": "(4)",
+      "category": "eyes",
+      "Currency": "₹",
+      "types": [
+        {
+          "title": "types>title",
+          "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
+          "secondary_title": "types>sec-title"
+        }
+      ]
+    }
+  ]
+}

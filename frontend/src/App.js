@@ -8,6 +8,8 @@ import { Home } from './components/Home/home'
 function App() {
   return (
     <div className="App">
+      <Navbar />
+
       {/* <Products data={db}></Products> */}
       {/* <Navbar /> */}
       <Home />

@@ -6,6 +6,11 @@
   align-items: center;
   justify-content: space-between;
   text-align: center;
+  cursor: pointer;
+}
+
+.navbar__offer-panel-close {
+  display: none;
 }
 
 .navbar__offer-panel > p {
