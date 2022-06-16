@@ -1,0 +1,21 @@
+.Mimage {
+  width: 30vw;
+  height: 316px;
+}
+
+
+
+@media screen and (max-width:1200px) {
+
+.Mimage{
+    width:50vw;
+}
+    
+}
+@media screen and (max-width:800px) {
+
+.Mimage{
+    width:100vw;
+}
+    
+}

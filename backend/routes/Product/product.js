@@ -16,7 +16,10 @@ productRouter.post('/new', async (req, res) => {
   // console.log(Product, 'model')
   const product = await Product(req.body)
 
-  product.save().then((data)=>res.send(data)).catch((e)=>res.send(e))
+  product
+    .save()
+    .then((data) => res.send(data))
+    .catch((e) => res.send(e))
 })
 
 module.exports = productRouter

@@ -1,0 +1,40 @@
+.app__search {
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  position: relative;
+  background: #000;
+  color: #fff;
+}
+
+.app__search > .back-arrow {
+  margin: 0 1rem;
+  left: 2%;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.app__search > input {
+  color: #fff;
+  outline: none;
+  padding: 0.5rem;
+  font-size: 1.25rem;
+  flex: 1;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid #fff;
+}
+
+.app__search > input::placeholder {
+  color: #fff;
+}
+
+.app__search > .close-arrow {
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin: 0 1rem;
+  /* position: absolute; */
+  right: 2%;
+}
