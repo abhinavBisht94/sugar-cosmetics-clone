@@ -1,0 +1,84 @@
+#prodDetailPath {
+  /* border: 1px solid red; */
+
+  margin: 2rem 5rem;
+  display: flex;
+  gap: 1rem;
+  color: darkgray;
+}
+#prodDetailPath :last-child {
+  color: gray;
+  font-weight: bolder;
+}
+
+/* . */
+
+#prodDetail {
+  margin: 2rem 8rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1rem;
+}
+
+#prodDetailDivOne {
+  display: flex;
+}
+#prodDetailDivOne div:first-child {
+  display: flex;
+}
+#prodDetailMiniImages img {
+  width: 10rem;
+  margin: 0 4rem;
+}
+
+#prodDetailImages img {
+  width: 17rem;
+}
+
+#prodDetailPrice div {
+  display: flex;
+}
+#prodDetailPrice div p {
+  padding-top: 0.5rem;
+}
+#prodDetailPrice p:first-child {
+  font-size: 1.8rem;
+  font-weight: bolder;
+  margin-bottom: 2rem;
+}
+
+#prodDetailPriceRating {
+  color: black;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+#prodDetailPriceRating img {
+  width: 2rem;
+}
+
+#prodDetailCart {
+  margin: 1rem 0;
+}
+
+#prodDetailWish {
+  text-decoration: underline;
+  display: flex;
+}
+#prodDetailWish:hover {
+  cursor: pointer;
+}
+#prodDetailWish img {
+  width: 1rem;
+  margin-right: 1rem;
+}
+
+#prodDetailSocial {
+  display: flex;
+  margin: 1rem 0;
+}
+#prodDetailSocial img {
+  width: 1.3rem;
+  margin-left: 1rem;
+}
+#prodDetailSocial img:hover {
+  cursor: pointer;
+}
