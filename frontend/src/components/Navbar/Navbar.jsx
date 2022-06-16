@@ -30,48 +30,57 @@ const mobileTheme = createTheme({
 });
 
 const Navbar = () => {
+  const [close, setClose] = useState(false);
+
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
+  const onClose = () => setClose(!close);
   // const navigate = useNavigate();
 
   return (
     <>
-      <div className="navbar__offer-panel">
-        <p>FREE Mate Attack Transfer proof Lipstick on a spend of Rs.799</p>
-        <AiOutlineClose className="close-icon" />
+      <div style={{ position: "sticky", top: 0 }}>
+        <div
+          className={`navbar__offer-panel ${
+            close ? "navbar__offer-panel-close" : ""
+          }`}
+        >
+          <p>FREE Mate Attack Transfer proof Lipstick on a spend of Rs.799</p>
+          <AiOutlineClose onClick={onClose} className="close-icon" />
+        </div>
+
+        <nav className="app__navbar">
+          <div className="navbar__logo">
+            <img
+              src="https://in.sugarcosmetics.com/desc-images/pride-logo-option.gif"
+              alt="brand logo"
+            />
+          </div>
+          <div className="navbar__search-panel">
+            <input type="text" placeholder='Try "Liquid Lipstick"' />
+            <button>Search</button>
+          </div>
+          <div className="navbar__account">
+            <div className="navbar__user">
+              <FaUser />
+              <p>Hi, Akshay Patil</p>
+            </div>
+            <div className="navbar__dropdown">
+              <AiFillCaretDown />
+            </div>
+          </div>
+          <div className="navbar__icons">
+            <FaHeart />
+            <div className="navbar__cart">
+              <FaShoppingCart />
+              <p>0</p>
+            </div>
+            <MdLocalOffer />
+          </div>
+        </nav>
+
+        <SubNavbar />
       </div>
-
-      <nav className="app__navbar">
-        <div className="navbar__logo">
-          <img
-            src="https://in.sugarcosmetics.com/desc-images/pride-logo-option.gif"
-            alt="brand logo"
-          />
-        </div>
-        <div className="navbar__search-panel">
-          <input type="text" placeholder='Try "Liquid Lipstick"' />
-          <button>Search</button>
-        </div>
-        <div className="navbar__account">
-          <div className="navbar__user">
-            <FaUser />
-            <p>Hi, Akshay Patil</p>
-          </div>
-          <div className="navbar__dropdown">
-            <AiFillCaretDown />
-          </div>
-        </div>
-        <div className="navbar__icons">
-          <FaHeart />
-          <div className="navbar__cart">
-            <FaShoppingCart />
-            <p>0</p>
-          </div>
-          <MdLocalOffer />
-        </div>
-      </nav>
-
-      <SubNavbar />
 
       {/* Mobile View */}
 

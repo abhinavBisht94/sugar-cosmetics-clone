@@ -1,4 +1,12 @@
 .app__sub-navbar {
+  background: #fff;
+}
+
+@media screen and (max-width: 850px) {
+  .app__sub-navbar {
+    background: #fff;
+    display: none;
+  }
 }
 
 .app__sub-navbar > ul {
@@ -14,8 +22,7 @@
 .app__sub-navbar > ul > li .menu-link {
   color: inherit;
   text-decoration: none;
-  line-height: 2rem;
-  margin: 0 2rem;
+  line-height: 3rem;
   position: relative;
   cursor: default;
 }
@@ -26,6 +33,8 @@
 }
 
 .app__sub-navbar > ul > li .menu {
+  /* border: 2px solid; */
+  margin: 0 2rem;
 }
 
 .app__sub-navbar > ul > li .dropdown-menu {
@@ -36,7 +45,6 @@
 }
 
 .app__sub-navbar > ul > li .menu:hover .dropdown-menu {
-  /* border: 2px solid; */
   background: #fff;
   display: flex;
   width: 150px;
