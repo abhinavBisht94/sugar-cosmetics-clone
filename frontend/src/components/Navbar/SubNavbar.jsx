@@ -60,7 +60,7 @@ const SubNavbar = () => {
                       item.cate.map((sub, index) => (
                         <Link
                           key={`${sub}-${Math.random()}`}
-                          to={"#"}
+                          to={sub}
                           className="dropdown-items"
                         >
                           {sub}
