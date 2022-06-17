@@ -1,3 +1,9 @@
+#productsBanner {
+  margin: 0 5rem;
+  width: 74rem;
+  height: 20rem;
+}
+
 #prodDataPath {
   margin-left: 3rem;
   margin-bottom: 4rem;
@@ -72,4 +78,48 @@
 
 #prodDataElem:hover #prodDataHover {
   visibility: visible;
+}
+
+@media screen and (max-width: 412px) {
+  #productsBanner {
+    margin: 0 0;
+    width: 100%;
+    height: 8rem;
+    overflow: hidden;
+  }
+
+  #prodData {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  #prodDataImage {
+    width: 8rem;
+  }
+
+  #prodDataHover {
+    visibility: visible;
+  }
+}
+
+@media only screen and (min-device-width: 413px) and (max-device-width: 1180px) and (orientation: portrait) {
+  #productsBanner {
+    margin: 0 0;
+    width: 100%;
+    height: 12rem;
+    overflow: hidden;
+  }
+
+  #prodData {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+  }
+
+  #prodDataImage {
+    width: 12rem;
+  }
+
+  #prodDataHover {
+    visibility: visible;
+  }
 }

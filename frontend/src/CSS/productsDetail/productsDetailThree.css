@@ -1,0 +1,27 @@
+#ProductsDetailThree {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+#pd3Buttons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+#pd3Buttons button {
+  border: none;
+  padding: 0.7rem 0;
+}
+#pd3Buttons button:hover {
+  cursor: pointer;
+}
+
+#ProductsDetailThree p {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 412px) {
+}
+
+@media only screen and (min-device-width: 413px) and (max-device-width: 1180px) and (orientation: portrait) {
+}

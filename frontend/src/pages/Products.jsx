@@ -2,16 +2,15 @@ import React from "react";
 import "../CSS/products.css";
 
 export const Products = ({ data }) => {
-  console.log("data:", data.prodEyes);
+  console.log("data:", data.dataCategory);
 
   return (
     <div>
       {/* Banner Image */}
       <img
-        width="100%"
-        height="250rem"
-        src={data.prodEyes[0].prodEyesBanner}
-        alt={data.prodEyes[0].prodEyesHeading}
+        id="productsBanner"
+        src={data.dataCategory[0].prodEyesBanner}
+        alt={data.dataCategory[0].prodEyesHeading}
       />
 
       {/* div to show path of the page */}
@@ -23,17 +22,18 @@ export const Products = ({ data }) => {
             alt="Home icon"
           />
           <p>/ Makeup</p>
-          <p>/ {data.prodEyes[0].prodEyesHeading}</p>
+          <p>/ {data.dataCategory[0].prodEyesHeading}</p>
         </div>
 
         <p>
-          {data.prodEyes[0].prodEyesHeading} - {data.prodEyes.length} items
+          {data.dataCategory[0].prodEyesHeading} - {data.dataCategory.length}{" "}
+          items
         </p>
       </div>
 
       {/* div to display all the products */}
       <div id="prodData">
-        {data.prodEyes.map((elem) => {
+        {data.dataCategory.map((elem) => {
           return (
             // div to display individual product
             <div id="prodDataElem" key={elem._id.$oid}>

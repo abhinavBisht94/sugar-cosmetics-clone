@@ -1,0 +1,27 @@
+#prodDetailPath {
+  /* border: 1px solid red; */
+
+  margin: 2rem 5rem;
+  display: flex;
+  gap: 1rem;
+  color: darkgray;
+}
+#prodDetailPath :last-child {
+  color: gray;
+  font-weight: bolder;
+}
+
+/* . */
+
+#prodDetail {
+  margin: 2rem 8rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1rem;
+}
+
+/* media screen */
+@media screen and (max-width: 412px) {
+}
+
+@media only screen and (min-device-width: 413px) and (max-device-width: 1180px) and (orientation: portrait) {
+}

@@ -1,0 +1,36 @@
+#pd2Input input {
+  border: none;
+  border-bottom: 1px solid black;
+  margin-left: 0.8rem;
+}
+#pd2Input input:focus {
+  outline: none;
+  border-bottom: 1px solid red;
+}
+#pd2Input button {
+  margin-left: 1rem;
+  padding: 0.4rem 0.7rem;
+  color: white;
+  font-size: 0.7rem;
+  background-color: hsl(210, 11%, 15%);
+  border: none;
+  border-radius: 5px;
+}
+
+#pd2Offers {
+  margin-top: 1rem;
+}
+#pd2Offers p {
+  font-size: 0.8rem;
+  color: black;
+  text-decoration: none;
+}
+#pd2Offers p:nth-child(1) {
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 412px) {
+}
+
+@media only screen and (min-device-width: 413px) and (max-device-width: 1180px) and (orientation: portrait) {
+}

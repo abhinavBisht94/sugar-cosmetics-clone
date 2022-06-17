@@ -1,0 +1,40 @@
+#ProductsDetailFour {
+  margin: 1rem 5rem;
+  text-align: center;
+}
+#ProductsDetailFour h1 {
+  margin: 2rem 0;
+}
+
+.pd4SimilarProducts img {
+  width: 10rem;
+}
+
+#ProductsDetailFour .pd4SimilarProducts p {
+  color: black;
+  text-decoration: none;
+}
+
+.pd4SimilarProducts button {
+  width: 100%;
+  padding: 0.6rem 0;
+  color: white;
+  background-color: hsl(210, 11%, 15%);
+  border: none;
+}
+
+/* pd4Recently */
+.pd4Recently {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.pd4Recently img {
+  width: 10rem;
+}
+.pd4Recently button {
+  width: 90%;
+  padding: 0.6rem 0;
+  color: white;
+  background-color: hsl(210, 11%, 15%);
+  border: none;
+}

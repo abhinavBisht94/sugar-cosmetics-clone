@@ -1,24 +1,3 @@
-#prodDetailPath {
-  /* border: 1px solid red; */
-
-  margin: 2rem 5rem;
-  display: flex;
-  gap: 1rem;
-  color: darkgray;
-}
-#prodDetailPath :last-child {
-  color: gray;
-  font-weight: bolder;
-}
-
-/* . */
-
-#prodDetail {
-  margin: 2rem 8rem;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  padding: 1rem;
-}
-
 #prodDetailDivOne {
   display: flex;
 }
@@ -26,7 +5,7 @@
   display: flex;
 }
 #prodDetailMiniImages img {
-  width: 10rem;
+  width: 7rem;
   margin: 0 4rem;
 }
 
@@ -57,6 +36,11 @@
 
 #prodDetailCart {
   margin: 1rem 0;
+  padding: 0.4rem 5rem;
+  color: white;
+  background-color: hsl(210, 11%, 15%);
+  border: none;
+  border-radius: 5px;
 }
 
 #prodDetailWish {
@@ -81,4 +65,10 @@
 }
 #prodDetailSocial img:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 412px) {
+}
+
+@media only screen and (min-device-width: 413px) and (max-device-width: 1180px) and (orientation: portrait) {
 }
