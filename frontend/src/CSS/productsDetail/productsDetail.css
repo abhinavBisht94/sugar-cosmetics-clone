@@ -20,8 +20,17 @@
 }
 
 /* media screen */
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 414px) {
+  #prodDetailPath {
+    display: none;
+  }
+  #prodDetail {
+    margin: 2rem 1rem;
+  }
 }
 
-@media only screen and (min-device-width: 413px) and (max-device-width: 1180px) and (orientation: portrait) {
+@media only screen and (min-device-width: 415px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #prodDetailPath {
+    display: none;
+  }
 }

@@ -20,20 +20,32 @@ export const ProductsDetailFour = ({ data }) => {
       <Swiper
         // install Swiper modules
         modules={[Navigation, Pagination, Scrollbar, A11y]}
-        spaceBetween={50}
-        slidesPerView={4}
+        // spaceBetween={50}
+        // slidesPerView={4}
+        breakpoints={{
+          // when window width is >= 1px
+          1: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          // when window width is >= 415px
+          415: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          // when window width is >= 1025px
+          1025: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+        }}
         navigation
         // pagination={{ clickable: true }}
         // scrollbar={{ draggable: true }}
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
       >
-        {/* <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide> */}
-
-        <div>
+        <div id="pd4Swiper">
           {data.dataCategory.map((elem) => {
             return (
               <SwiperSlide key={elem._id.$oid}>

@@ -20,8 +20,11 @@
   color: black;
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 414px) {
+  #pd3Buttons {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
-@media only screen and (min-device-width: 413px) and (max-device-width: 1180px) and (orientation: portrait) {
+@media only screen and (min-device-width: 413px) and (max-device-width: 1024px) and (orientation: portrait) {
 }

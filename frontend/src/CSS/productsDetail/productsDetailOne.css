@@ -67,8 +67,34 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 414px) {
+  #prodDetailDivOne {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #prodDetailImages img {
+    width: 15rem;
+  }
+
+  #prodDetailMiniImages {
+    display: none;
+  }
 }
 
-@media only screen and (min-device-width: 413px) and (max-device-width: 1180px) and (orientation: portrait) {
+@media only screen and (min-device-width: 413px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #prodDetailDivOne {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #prodDetailImages img {
+    width: 25rem;
+    margin-left: 5rem;
+  }
+
+  #prodDetailMiniImages {
+    display: none;
+  }
 }

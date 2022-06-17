@@ -29,8 +29,14 @@
   font-weight: bolder;
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 414px) {
+  #prodDetailDivTwo img {
+    display: none;
+  }
 }
 
-@media only screen and (min-device-width: 413px) and (max-device-width: 1180px) and (orientation: portrait) {
+@media only screen and (min-device-width: 413px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #prodDetailDivTwo img {
+    display: none;
+  }
 }

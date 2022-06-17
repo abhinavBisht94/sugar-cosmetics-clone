@@ -38,3 +38,15 @@
   background-color: hsl(210, 11%, 15%);
   border: none;
 }
+
+@media screen and (max-width: 414px) {
+  #ProductsDetailFour {
+    margin: 0 0;
+  }
+}
+
+@media only screen and (min-device-width: 413px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #ProductsDetailFour {
+    margin: 0 0;
+  }
+}
