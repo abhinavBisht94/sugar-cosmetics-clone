@@ -1,17 +1,44 @@
 import React from "react";
+import { useState } from "react";
 import "../CSS/products.css";
+import { ProductsDetail } from "./ProductsDetail";
 
 export const Products = ({ data }) => {
-  console.log("data:", data.dataCategory);
+  // console.log('data:', data)
+  // console.log("data:", data.dataCategory);
+
+  const [display, setDisplay] = useState(false);
+  const [send, setSend] = useState({});
+
+  const itemClicked = (id) => {
+    console.log("clicked item id: ", id);
+    data.dataCategory.map((elem) => {
+      if (elem._id.$oid === id) {
+        setSend(elem);
+        console.log("send:", send);
+
+        setDisplay(!display);
+      }
+    });
+  };
+
+  if (display) {
+    return <ProductsDetail allData={data.dataCategory} data={send} />;
+  }
 
   return (
     <div>
       {/* Banner Image */}
-      <img
-        id="productsBanner"
-        src={data.dataCategory[0].prodEyesBanner}
-        alt={data.dataCategory[0].prodEyesHeading}
-      />
+
+      {data.dataCategory[0].prodEyesBanner ? (
+        <img
+          id="productsBanner"
+          src={data.dataCategory[0].prodEyesBanner}
+          alt={data.dataCategory[0].prodEyesHeading}
+        />
+      ) : (
+        ""
+      )}
 
       {/* div to show path of the page */}
       {/* needs to be edited not final */}
@@ -37,9 +64,22 @@ export const Products = ({ data }) => {
           return (
             // div to display individual product
             <div id="prodDataElem" key={elem._id.$oid}>
-              <img id="prodDataImage" src={elem.ImageUrl} alt={elem.Title} />
+              <img
+                id="prodDataImage"
+                src={elem.ImageUrl}
+                alt={elem.Title}
+                onClick={() => {
+                  itemClicked(elem._id.$oid);
+                }}
+              />
 
-              <p>{elem.Title}</p>
+              <p
+                onClick={() => {
+                  itemClicked(elem._id.$oid);
+                }}
+              >
+                {elem.Title}
+              </p>
 
               <p>{elem.Price}</p>
 

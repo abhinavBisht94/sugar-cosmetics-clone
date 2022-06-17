@@ -15,6 +15,7 @@
   background-color: hsl(210, 11%, 15%);
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 #pd2Offers {

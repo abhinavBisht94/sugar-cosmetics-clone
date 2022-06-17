@@ -5,6 +5,7 @@ import { ProductsDetailTwo } from "../components/ProductsDetail/ProductsDetailTw
 import "../CSS/productsDetail/productsDetail.css";
 
 export const ProductsDetail = ({ allData, data }) => {
+  // console.log('allData:', allData)
   // console.log("data:", data);
 
   return (

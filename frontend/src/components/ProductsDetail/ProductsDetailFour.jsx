@@ -12,6 +12,7 @@ import "swiper/css/scrollbar";
 import "../../CSS/productsDetail/productsDetailFour.css";
 
 export const ProductsDetailFour = ({ data }) => {
+  console.log("data:", data);
   //   console.log("data.dataCategory:", data.dataCategory);
 
   return (
@@ -46,7 +47,7 @@ export const ProductsDetailFour = ({ data }) => {
         onSlideChange={() => console.log("slide change")}
       >
         <div id="pd4Swiper">
-          {data.dataCategory.map((elem) => {
+          {data.map((elem) => {
             return (
               <SwiperSlide key={elem._id.$oid}>
                 <div className="pd4SimilarProducts">
@@ -64,22 +65,16 @@ export const ProductsDetailFour = ({ data }) => {
       <h1>SHOP FROM RECENTLY VIEWED</h1>
       <div className="pd4Recently">
         <div>
-          <img
-            src={data.dataCategory[0].ImageUrl}
-            alt={data.dataCategory[0].prodEyesHeading}
-          />
-          <h5>{data.dataCategory[0].Title}</h5>
-          <p>{data.dataCategory[0].Price}</p>
+          <img src={data[0].ImageUrl} alt={data[0].prodEyesHeading} />
+          <h5>{data[0].Title}</h5>
+          <p>{data[0].Price}</p>
           <button>Notify Me</button>
         </div>
 
         <div>
-          <img
-            src={data.dataCategory[1].ImageUrl}
-            alt={data.dataCategory[1].prodEyesHeading}
-          />
-          <h5>{data.dataCategory[1].Title}</h5>
-          <p>{data.dataCategory[1].Price}</p>
+          <img src={data[1].ImageUrl} alt={data[1].prodEyesHeading} />
+          <h5>{data[1].Title}</h5>
+          <p>{data[1].Price}</p>
           <button>Notify Me</button>
         </div>
       </div>
