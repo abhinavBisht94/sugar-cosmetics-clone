@@ -39,7 +39,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div style={{ position: "sticky", top: 0 }}>
+      <div style={{ position: "sticky", top: 0, zIndex: "100" }}>
         <div
           className={`navbar__offer-panel ${
             close ? "navbar__offer-panel-close" : ""
