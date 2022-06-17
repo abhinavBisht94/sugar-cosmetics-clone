@@ -1,0 +1,22 @@
+### Register
+http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+    "fname":"Akshay",
+    "lName":"Patil",
+    "email":"akshay@gmail.com",
+    "number":"9876543210"
+}
+
+### Login
+http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+"number":1234567890
+}
+
+### refresh-token
+http://localhost:8080/auth/refresh-token
+

@@ -1,6 +1,11 @@
-const mongoose = require('mongoose')
-const connection = mongoose.connect(process.env.database)
+const mongoose = require("mongoose");
+const dotenv = require("dotenv");
 
+dotenv.config();
+
+const connection = mongoose.connect(process.env.database, {
+  useNewUrlParser: true,
+});
 
 const productSchema = new mongoose.Schema({
   prodEyesHeading: String,
@@ -10,7 +15,7 @@ const productSchema = new mongoose.Schema({
   Rating: { type: Number, required: true },
   Price: { type: Number, required: true },
   category: { type: String, required: true },
-  Currency: { type: String, enum: ['$', '₹'] },
+  Currency: { type: String, enum: ["$", "₹"] },
 
   types: [
     {
@@ -19,9 +24,9 @@ const productSchema = new mongoose.Schema({
       secondary_title: String,
     },
   ],
-})
+});
 
-const Product = mongoose.model('product', productSchema)
-console.log(Product, 'index product model')
+const Product = mongoose.model("product", productSchema);
+console.log(Product, "index product model");
 
-module.exports={Product,connection}
+module.exports = { Product, connection };
