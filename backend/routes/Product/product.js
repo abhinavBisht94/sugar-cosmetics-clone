@@ -10,7 +10,7 @@ productRouter.get('/', async (req, res) => {
   const product = await Product.find()
   res.send(product)
 })
-productRouter.get('/get/:id', async (req, res) => {
+productRouter.get('/get/single/:id', async (req, res) => {
   // console.log('it is coming')
   // const body = req.body
   // console.log(body)
