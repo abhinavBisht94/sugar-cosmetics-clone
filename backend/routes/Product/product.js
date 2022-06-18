@@ -1,13 +1,15 @@
 const { Router } = require('express')
+const { MongoClient } = require('mongodb')
 
 const productRouter = Router()
 const { Product } = require('../../db')
 
+productRouter.get('/', async (req, res) => {
+  const data =  await Product.find()
+  // console.log(data)
+  res.send(data)
 
-
-productRouter.get('/', (req, res) => {
-  
-  res.send('working')
+  // res.send('working')
 })
 
 productRouter.post('/new', async (req, res) => {
