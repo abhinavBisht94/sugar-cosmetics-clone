@@ -24,6 +24,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad398"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/1_6f55bcac-3e42-4253-88ee-cec0fa43c62a.jpg?v=1645608270",
       "Title": "Matte Attack Transferproof Lipstick",
       "Price": "Rs.699",
@@ -43,6 +44,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad399"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-smudge-me-not-minis-set-black-14964843151443.jpg?v=1620651368",
       "Title": "Smudge Me Not Minis Set - Black",
       "Price": "Rs.799",
@@ -62,6 +64,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad39a"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_d6ffec78-c2b6-4466-8672-233fee0285a8.jpg?v=1644394232",
       "Title": "Matte As Hell Crayon Lipstick",
       "Price": "Rs.799",
@@ -81,6 +84,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad39b"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/1_1da9dee5-9c2e-4135-994c-9b7d2ca23e6b.jpg?v=1641915296",
       "Title": "Nothing Else Matter Longwear Lipstick",
       "Price": "Rs.499",
@@ -100,6 +104,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad39c"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/1_ef579f2e-602e-4d2f-bed2-bf0efdf4f184.jpg?v=1644325813",
       "Title": "Smudge Me Not Liquid Lipstick",
       "Price": "Rs.499",
@@ -119,6 +124,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad39d"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-tipsy-lips-moisturizing-balm-01-mojito-15057279877203.jpg?v=1619122412",
       "Title": "Tipsy Lips Moisturizing Balm",
       "Price": "Rs.199",
@@ -138,6 +144,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad39e"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/01_9e0bf9bb-92a6-45ca-8ce4-ce7d58c617ac.jpg?v=1639496863",
       "Title": "Good Moodies Lip Crayon",
       "Price": "Rs.599",
@@ -157,6 +164,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad39f"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-smudge-me-not-liquid-lipstick-mint-green-minis-set-14792910340179.jpg?v=1620652722",
       "Title": "Smudge Me Not Minis Set - Mint Green",
       "Price": "Rs.799",
@@ -176,6 +184,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3a0"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-mettle-satin-lipstick-01-sophie-bright-fuchsia-pink-fuchsia-13706258088019.jpg?v=1619116113",
       "Title": "Mettle Satin Lipstick",
       "Price": "Rs.999",
@@ -195,6 +204,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3a1"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-smudge-me-not-mini-lipstick-black-set-bold-28336482779219.jpg?v=1623073320",
       "Title": "Smudge Me Not Mini Lipstick Black Set - Bold",
       "Price": "Rs.799",
@@ -214,6 +224,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3a2"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-smudge-me-not-lip-duo-01-brazen-raisin-burgundy-13200661643347.jpg?v=1619108721",
       "Title": "Smudge Me Not Lip Duos",
       "Price": "Rs.599",
@@ -233,6 +244,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3a3"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-smudge-me-not-minis-set-pink-14629810667603.jpg?v=1620652894",
       "Title": "Smudge Me Not Minis Set - Pink",
       "Price": "Rs.799",
@@ -252,6 +264,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3a4"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-mettle-liquid-lipstick-01-lyra-cool-toned-plum-13200549380179.jpg?v=1619110238",
       "Title": "Mettle Liquid Lipstick",
       "Price": "Rs.599",
@@ -271,6 +284,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3a5"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-lipping-on-the-edge-lip-liner-01-taffeta-terracotta-13278188568659.jpg?v=1619109027",
       "Title": "Lipping On The Edge Lip Liner",
       "Price": "Rs.499",
@@ -290,6 +304,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3a6"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-smudge-me-not-mini-lipstick-mint-green-set-bold-28336482943059.jpg?v=1623073325",
       "Title": "Smudge Me Not Mini Lipstick Mint Green Set - Bold",
       "Price": "Rs.799",
@@ -309,6 +324,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3a7"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-smudge-me-not-mini-lipstick-mint-green-set-nude-28336347545683.jpg?v=1623073335",
       "Title": "Smudge Me Not Mini Lipstick Mint Green Set - Nude",
       "Price": "Rs.799",
@@ -328,6 +344,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3a8"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-smudge-me-not-mini-lipstick-black-set-nude-28448555434067.jpg?v=1624280294",
       "Title": "Smudge Me Not Mini Lipstick Black Set - Nude",
       "Price": "Rs.799",
@@ -347,6 +364,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3a9"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-lip-service-sugar-scrub-28015074508883.jpg?v=1619155562",
       "Title": "LIP SERVICE SUGAR SCRUB",
       "Price": "Rs.399",
@@ -366,6 +384,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3aa"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-seal-the-show-lip-primer-14162590433363.jpg?v=1619106825",
       "Title": "Seal The Show Lip Primer",
       "Price": "Rs.599",
@@ -385,6 +404,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3ab"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-smudge-me-not-mini-lipstick-black-set-bestseller-28336345514067.jpg?v=1623073340",
       "Title": "Smudge Me Not Mini Lipstick Black Set - Bestseller",
       "Price": "Rs.799",
@@ -404,6 +424,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3ac"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-smudge-me-not-mini-lipstick-mint-green-set-bestseller-28336342171731.jpg?v=1623073344",
       "Title": "Smudge Me Not Mini Lipstick Mint Green Set - Bestseller",
       "Price": "Rs.799",
@@ -423,6 +444,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3ad"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cossmetics-wonder-woman-creamy-matte-lipstick-04-wild-wonder-lightest-coral-peach-28128214483027.jpg?v=1619155118",
       "Title": "Wonder Woman Creamy Matte Lipsticks",
       "Price": "Rs.599",
@@ -442,6 +464,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3ae"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-wonder-woman-24-hr-lip-lacquer-27982619738195.jpg?v=1619154969",
       "Title": "Wonder Woman 24 HR Lip Lacquer",
       "Price": "Rs.699",
@@ -461,6 +484,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3af"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-time-to-shine-lip-gloss-13905851580499.jpg?v=1619116676",
       "Title": "Time To Shine Lip Gloss",
       "Price": "Rs.499",
@@ -480,6 +504,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3b0"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-matte-as-hell-crayon-lipstick-minis-set-28270316945491.jpg?v=1623073051",
       "Title": "Matte As Hell Crayon Lipstick Minis Set",
       "Price": "Rs.1099",
@@ -499,6 +524,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3b1"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-wonder-woman-everlasting-matte-lipstick-01-warrior-orange-red-27982193950803.jpg?v=1619155214",
       "Title": "Wonder Woman Everlasting Matte Lipstick",
       "Price": "Rs.799",
@@ -518,6 +544,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3b2"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-lip-service-tint-remover-28122580910163.jpg?v=1619155575",
       "Title": "LIP SERVICE TINT REMOVER",
       "Price": "Rs.399",
@@ -537,6 +564,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3b3"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/Red-Mini-Ret--WBG-1.jpg?v=1625845364",
       "Title": "Smudge Me Not Minis Set - Red",
       "Price": "Rs.799",
@@ -556,6 +584,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3b4"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-mettle-matte-lipstick-01-athena-red-terracotta-13200497737811.jpg?v=1619110264",
       "Title": "Mettle Matte Lipstick",
       "Price": "Rs.549",
@@ -575,6 +604,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3b5"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-limited-edition-nothing-else-matter-longwear-lipstick-15288678613075.jpg?v=1619115170",
       "Title": "Limited Edition Nothing Else Matter Longwear Lipstick",
       "Price": "Rs.599",
@@ -594,6 +624,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3b6"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-plush-crush-creme-crayon-13974621519955.jpg?v=1619117067",
       "Title": "Plush Crush Crème Crayon",
       "Price": "Rs.349",
@@ -613,6 +644,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3b7"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-mini-liquid-lipstick-set-adventurous-27950522073171.jpg?v=1620652479",
       "Title": "Mini Liquid Lipstick Set - Adventurous",
       "Price": "Rs.799",
@@ -632,6 +664,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3b8"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-mini-liquid-lipstick-set-fighter-27950526169171.jpg?v=1620651933",
       "Title": "Mini Liquid Lipstick Set - Fighter",
       "Price": "Rs.799",
@@ -651,6 +684,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3b9"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-mini-liquid-lipstick-set-mint-green-invincible-27943029538899.jpg?v=1620652208",
       "Title": "Mini Liquid Lipstick Set - Invincible",
       "Price": "Rs.799",
@@ -670,6 +704,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3ba"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-mini-liquid-lipstick-set-red-fearless-27943255703635.jpg?v=1620652654",
       "Title": "Mini Liquid Lipstick Set - Fearless",
       "Price": "Rs.799",
@@ -689,6 +724,7 @@
       "_id": {
         "$oid": "62ac9b94f82dd711f63ad3bb"
       },
+      "prodEyesHeading": "Eye makeup",
       "ImageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-smudge-me-not-liquid-lipstick-minis-set-15520724582483.jpg?v=1620651966",
       "Title": "Smudge Me Not Liquid Lipstick Minis Set",
       "Price": "Rs.799",
