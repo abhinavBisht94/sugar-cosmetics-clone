@@ -1,55 +1,62 @@
-import axios from "axios";
-import { useEffect } from "react";
-import { useParams } from "react-router-dom";
-import { ProductsDetailFour } from "../components/ProductsDetail/ProductsDetailFour";
-import { ProductsDetailOne } from "../components/ProductsDetail/ProductsDetailOne";
-import { ProductsDetailThree } from "../components/ProductsDetail/ProductsDetailThree";
-import { ProductsDetailTwo } from "../components/ProductsDetail/ProductsDetailTwo";
-import "../CSS/productsDetail/productsDetail.css";
+import axios from 'axios'
+import { useEffect } from 'react'
+import { useParams } from 'react-router-dom'
+import { ProductsDetailFour } from '../components/ProductsDetail/ProductsDetailFour'
+import { ProductsDetailOne } from '../components/ProductsDetail/ProductsDetailOne'
+import { ProductsDetailThree } from '../components/ProductsDetail/ProductsDetailThree'
+import { ProductsDetailTwo } from '../components/ProductsDetail/ProductsDetailTwo'
+import '../CSS/productsDetail/productsDetail.css'
+import { useState } from 'react'
 
 export const ProductsDetail = ({ allData, data }) => {
-    // console.log('allData:', allData)
-    const { id } = useParams();
-    // console.log("data:", data);
+  // console.log('allData:', allData)
+  const { id } = useParams()
+  // console.log("data:", data);
+    const [prod, setProd] = useState([])
+    const [alldata,setAlldata]=useState([])
 
-    const getData = async () => {
-        try {
-            let res = await axios.get(
-                `http://localhost:8080/product/get/${id}`
-            );
-            let data = await res.data;
-            console.log("data: ", data);
-        } catch (error) {
-            console.log("error: ", error);
-        }
-    };
+  const getData = async () => {
+    try {
+      let res = await axios.get(
+        `http://localhost:8080/product/get/single/${id}`,
+        )
+        let second = await axios.get("/product/makeup");
+        setAlldata(second);
 
-    useEffect(() => {
-        getData();
-    }, []);
+      let data = await res.data
+        console.log('data: ', data)
+        setProd(data)
+    } catch (error) {
+      console.log('error: ', error)
+    }
+  }
 
-    return (
-        <>
-            <div id="prodDetailPath">
-                <img
-                    src="https://in.sugarcosmetics.com/desc-images/breadcrumb_home.svg"
-                    alt="Home icon"
-                />
-                {/* <p>/ Makeup</p>
-                <p>/ {data.category}</p>
-                <p>/ {data.prodEyesHeading}</p>
-                <p>/ {data.Title}</p>
+  useEffect(() => {
+    getData()
+  }, [])
+
+  return (
+    <>
+      <div id="prodDetailPath">
+        <img
+          src="https://in.sugarcosmetics.com/desc-images/breadcrumb_home.svg"
+          alt="Home icon"
+        />
+        <p>/ Makeup</p>
+                <p>/ {prod.category}</p>
+                <p>/ {prod.prodEyesHeading}</p>
+                <p>/ {prod.Title}</p>
             </div>
 
             <div id="prodDetail">
-                <ProductsDetailOne data={data} />
+                <ProductsDetailOne data={prod} />
 
                 <ProductsDetailTwo />
 
                 <ProductsDetailThree />
 
-                <ProductsDetailFour data={allData} /> */}
-            </div>
-        </>
-    );
-};
+                <ProductsDetailFour data={alldata} />
+      </div>
+    </>
+  )
+}
