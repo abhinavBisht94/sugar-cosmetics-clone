@@ -85,6 +85,14 @@ export const DelInfo = styled.div`
   border: 1px solid;
   margin-top: 20px;
   align-items: center;
+
+  .link {
+    /* border: 1px solid; */
+    /* flex: 1; */
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+  }
 `;
 
 export const Dis1 = styled.div`

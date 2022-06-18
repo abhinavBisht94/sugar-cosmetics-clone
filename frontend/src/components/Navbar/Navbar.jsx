@@ -98,7 +98,7 @@ const Navbar = () => {
               <FaHeart />
             </Link>
             <div className="navbar__cart">
-              <Link className="link" to={"#"}>
+              <Link className="link" to={"/cart"}>
                 <FaShoppingCart />
               </Link>
               <p>0</p>

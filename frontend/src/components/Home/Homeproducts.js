@@ -15,7 +15,7 @@ import { Pagination, Navigation } from 'swiper'
 export default function Products({ arr }) {
   const { innerWidth, innerHeight } = window
 
-  console.log(innerWidth)
+  // console.log(innerWidth)
   var perview = 0
 
   return (

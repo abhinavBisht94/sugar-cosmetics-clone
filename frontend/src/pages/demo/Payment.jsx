@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   CartDiv,
   CartDiv1,
@@ -19,7 +20,6 @@ import {
   Pm1,
   PriceDis,
 } from "../../CSS/Styles";
-
 
 export const Payment = () => {
   return (
@@ -211,10 +211,12 @@ export const Payment = () => {
 
         <div id="contactInfoDiv">
           <DelInfo>
-            <a href="delivery.html">Delivery Info</a>
-            <a href="delivery.html">
+            <Link className="link" to="/cart">
+              Delivery Info
+            </Link>
+            <Link className="link" to="/success">
               <DelInfoBTN>Delivery Information</DelInfoBTN>
-            </a>
+            </Link>
           </DelInfo>
         </div>
       </CartDiv2>

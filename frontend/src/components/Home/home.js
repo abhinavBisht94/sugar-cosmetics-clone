@@ -1,7 +1,7 @@
 import React from 'react'
 import MainSlider from './mainSlider'
 import MultiImage from './multiImage'
-import Products from './products'
+import Products from './Homeproducts'
 
 export const Home = () => {
   const arr = [

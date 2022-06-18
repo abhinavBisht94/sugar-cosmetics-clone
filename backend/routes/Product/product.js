@@ -1,22 +1,8 @@
-<<<<<<< Updated upstream
-const { Router } = require('express')
-const { MongoClient } = require('mongodb')
-=======
 const { Router } = require("express");
 const Product = require("../../models/Product.model");
->>>>>>> Stashed changes
 
 const productRouter = Router();
 
-<<<<<<< Updated upstream
-productRouter.get('/', async (req, res) => {
-  const data =  await Product.find()
-  // console.log(data)
-  res.send(data)
-
-  // res.send('working')
-})
-=======
 console.log("came");
 
 productRouter.get("/", async (req, res) => {
@@ -24,7 +10,36 @@ productRouter.get("/", async (req, res) => {
   const product = await Product.find();
   res.send(product);
 });
->>>>>>> Stashed changes
+
+productRouter.get("/:main", async (req, res) => {
+  // res.send("working");
+  let { perPage, pageNo } = req.query;
+  perPage = +perPage;
+  pageNo = +pageNo;
+  const product = await Product.find({
+    MainCategory: "brushes",
+  })
+    .skip((pageNo - 1) * perPage)
+    .limit(perPage);
+  console.log(req.params);
+
+  res.send(product);
+});
+
+productRouter.get("/:main/:category", async (req, res) => {
+  // res.send("working");
+  let { perPage, pageNo } = req.query;
+  perPage = +perPage;
+  pageNo = +pageNo;
+  const product = await Product.find({
+    $and: [{ MainCategory: "brushes" }, { category: req.params.category }],
+  })
+    .skip((pageNo - 1) * perPage)
+    .limit(perPage);
+  console.log(req.params);
+
+  res.send(product);
+});
 
 productRouter.post("/new", async (req, res) => {
   // console.log('it is coming')

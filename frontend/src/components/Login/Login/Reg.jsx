@@ -38,10 +38,10 @@ const Reg = () => {
         alert(error.response.data.error.message);
       }
     }
-    if (fName === "" || lName === "" || email === "" || number === "") {
-      alert("Please Fill All Details");
-      return;
-    }
+    // if (fName === "" || lName === "" || email === "" || number === "") {
+    //   alert("Please Fill All Details");
+    //   return;
+    // }
   };
 
   return (

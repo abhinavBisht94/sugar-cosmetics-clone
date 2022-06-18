@@ -21,6 +21,7 @@ import {
   Payable,
   PriceDis,
 } from "../../CSS/Styles";
+import { Link } from "react-router-dom";
 
 export const Cart = () => {
   return (
@@ -118,10 +119,12 @@ export const Cart = () => {
           </div>
 
           <DelInfo>
-            <a href="makeup.html">Continue Shopping</a>
-            <a href="delivery.html">
+            <Link className="link" to="/">
+              Continue Shopping
+            </Link>
+            <Link className="link" to="/payment">
               <DelInfoBTN>Delivery Information</DelInfoBTN>
-            </a>
+            </Link>
           </DelInfo>
         </CartDiv2>
       </CartDiv>
