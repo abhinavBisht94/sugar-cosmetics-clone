@@ -37,7 +37,7 @@
   /* width: 10%; */
 }
 
-.app__navbar > .navbar__logo > img {
+.app__navbar > .navbar__logo > .link > img {
   height: 100%;
 }
 
@@ -95,9 +95,10 @@
   font-size: 1.2rem;
 }
 
-.app__navbar > .navbar__account > .navbar__user > p {
+.app__navbar > .navbar__account > .navbar__user > .link > p {
   margin: 0 1rem;
   font-size: 1rem;
+  color: #000;
 }
 
 .app__navbar > .navbar__account > .navbar__dropdown {
@@ -130,6 +131,7 @@
   width: 17px;
   border-radius: 100%;
   background: #fff;
+  color: #000;
   font-size: 12px;
   font-weight: bold;
   text-align: center;
@@ -166,8 +168,15 @@
     align-items: center;
   }
 }
+.navbar__offer-panel {
+  display: none;
+}
 
 @media screen and (max-width: 850px) {
+  .navbar__offer-panel {
+    display: none;
+  }
+
   .navbar__offer-panel {
     background: #212529;
     color: #fff;

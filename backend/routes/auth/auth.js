@@ -16,12 +16,7 @@ const authRouter = Router();
 authRouter.post("/register", async (req, res, next) => {
   console.log(req.body);
   try {
-    // const { fName, lName, email, number } = req.body;
-    // if (!fName || !lName || !email || !number) {
-    //   throw createError.BadRequest();
-    // }
     const result = await authRegisterSchema.validateAsync(req.body);
-    // console.log("result: ", result);
 
     const ifExist = await User.findOne({ email: result.email });
     if (ifExist) throw createError.Conflict("Email already exist");
@@ -30,7 +25,7 @@ authRouter.post("/register", async (req, res, next) => {
     const savedUser = await user.save();
     const accessToken = await signAccessToken(savedUser.id);
     const refreshToken = await signAccessToken(savedUser.id);
-    return res.send({ accessToken, refreshToken });
+    return res.send({ accessToken, refreshToken, user });
   } catch (error) {
     if (error.isJoi === true) error.status = 422;
     next(error);
@@ -43,8 +38,12 @@ authRouter.post("/login", async (req, res, next) => {
     const user = await User.findOne({ number: result.number });
     if (!user) throw createError.BadRequest();
     const accessToken = await signAccessToken(user.id);
+    res.cookie("jwt", accessToken, {
+      httpOnly: true,
+      maxAge: 24 * 60 * 60 * 1000, // 1 day
+    });
     const refreshToken = await signAccessToken(user.id);
-    return res.send({ accessToken, refreshToken });
+    return res.send({ accessToken, refreshToken, user });
   } catch (error) {
     next(error);
   }

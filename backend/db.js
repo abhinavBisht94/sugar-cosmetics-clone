@@ -7,6 +7,7 @@ const connection = mongoose.connect(process.env.database, {
   useNewUrlParser: true,
 })
 
+<<<<<<< Updated upstream
 const productSchema = new mongoose.Schema({
   prodEyesHeading: String,
   prodEyesBanner: String,
@@ -32,3 +33,6 @@ console.log(Product, 'index product model')
 
 
 module.exports = { Product, connection }
+=======
+module.exports = connection;
+>>>>>>> Stashed changes

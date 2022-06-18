@@ -16,3 +16,14 @@ body {
 ::root {
   --heading-font: "Poppins", sans-serif;
 }
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.app__input-number::-webkit-outer-spin-button,
+.app__input-number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

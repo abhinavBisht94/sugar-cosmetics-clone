@@ -1,4 +1,3 @@
-### Register
 http://localhost:8080/auth/register
 Content-Type: application/json
 

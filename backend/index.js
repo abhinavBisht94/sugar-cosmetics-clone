@@ -4,13 +4,14 @@ const morgan = require("morgan");
 const createError = require("http-errors");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
+const cookieParser = require("cookie-parser");
 
 const authRouter = require("./routes/auth/auth");
 const cartRouter = require("./routes/Cart/cart");
 const paymentRouter = require("./routes/Payment/payment");
 const productRouter = require("./routes/Product/product");
-
-const { connection, Product } = require("./db");
+const userRouter = require("./routes/User/user");
+const { connection } = require("./db");
 const { verifyAccessToken } = require("./helpers/jwt");
 
 const app = express();
@@ -18,6 +19,7 @@ const PORT = process.env.PORT || 8080;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors());
+app.use(cookieParser());
 app.use(morgan("dev"));
 dotenv.config();
 
@@ -32,17 +34,18 @@ dotenv.config();
 //   })
 // })
 
-app.get("/", (req, res) => {
+app.get("/", async (req, res) => {
   res.send("Hello!");
 });
 
-app.use("/product", productRouter);
 app.use("/auth", authRouter);
+app.use("/user", userRouter);
+app.use("/product", productRouter);
 app.use("/cart", cartRouter);
 app.use("/payment", paymentRouter);
 
 app.use(async (req, res, next) => {
-  next(createError.NotFound());
+  next(createError.NotFound("Page Not Found"));
 });
 
 app.use(async (err, req, res, next) => {

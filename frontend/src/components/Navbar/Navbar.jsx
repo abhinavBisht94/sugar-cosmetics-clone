@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-// import { Link, useNavigate } from "react-router-dom";
+import React, { useContext, useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import "./navbar.css";
 import {
   AiOutlineClose,
@@ -18,6 +18,8 @@ import IconButton from "@mui/material/IconButton";
 import { Drawer } from "@mui/material";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import SubNavbar from "./SubNavbar";
+import LoginPage from "../Login/Login/LoginPage";
+import { UserContext } from "../../context/UserContext";
 // import Search from "./Search";
 
 const mobileTheme = createTheme({
@@ -31,17 +33,21 @@ const mobileTheme = createTheme({
 
 const Navbar = () => {
   const [close, setClose] = useState(false);
+  const { singleUser, isLoggedIn } = useContext(UserContext);
+  console.log("singleUser: ", singleUser);
+  // const [navClose, setCSetNav] = useState(false);
 
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const [loginDrawer, setLoginDrawer] = useState(false);
 
   const onClose = () => setClose(!close);
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
 
   return (
     <>
       <div style={{ position: "sticky", top: 0, zIndex: "100" }}>
         <div
-          className={`navbar__offer-panel ${
+          className={`navbar__offer-panel-close ${
             close ? "navbar__offer-panel-close" : ""
           }`}
         >
@@ -51,10 +57,12 @@ const Navbar = () => {
 
         <nav className="app__navbar">
           <div className="navbar__logo">
-            <img
-              src="https://in.sugarcosmetics.com/desc-images/pride-logo-option.gif"
-              alt="brand logo"
-            />
+            <Link className="link" to={"/"}>
+              <img
+                src="https://in.sugarcosmetics.com/desc-images/pride-logo-option.gif"
+                alt="brand logo"
+              />
+            </Link>
           </div>
           <div className="navbar__search-panel">
             <input type="text" placeholder='Try "Liquid Lipstick"' />
@@ -63,19 +71,41 @@ const Navbar = () => {
           <div className="navbar__account">
             <div className="navbar__user">
               <FaUser />
-              <p>Hi, Akshay Patil</p>
+              <Link to={!isLoggedIn ? "/login" : "/account"} className="link">
+                <p>
+                  {!isLoggedIn
+                    ? "Login/Register"
+                    : `${singleUser.fName} ${singleUser.lName}`}
+                </p>
+              </Link>
+              {/* <Drawer
+                // onClick={() => {
+                //   navigate("/login");
+                // }}
+                open={loginDrawer}
+                anchor="right"
+                onClose={() => setLoginDrawer(false)}
+              >
+                <LoginPage setLoginDrawer />
+              </Drawer> */}
             </div>
             <div className="navbar__dropdown">
               <AiFillCaretDown />
             </div>
           </div>
           <div className="navbar__icons">
-            <FaHeart />
+            <Link className="link" to={"#"}>
+              <FaHeart />
+            </Link>
             <div className="navbar__cart">
-              <FaShoppingCart />
+              <Link className="link" to={"#"}>
+                <FaShoppingCart />
+              </Link>
               <p>0</p>
             </div>
-            <MdLocalOffer />
+            <Link className="link" to={"#"}>
+              <MdLocalOffer />
+            </Link>
           </div>
         </nav>
 
@@ -117,11 +147,13 @@ const Navbar = () => {
               </Drawer>
 
               <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                <img
-                  src="https://in.sugarcosmetics.com/desc-images/pride-logo-option-white.gif"
-                  alt="brand logo"
-                  height={"40px"}
-                />
+                <Link className="link" to={"#"}>
+                  <img
+                    src="https://in.sugarcosmetics.com/desc-images/pride-logo-option-white.gif"
+                    alt="brand logo"
+                    height={"40px"}
+                  />
+                </Link>
               </Typography>
               <IconButton
                 size="large"
@@ -129,7 +161,9 @@ const Navbar = () => {
                 aria-haspopup="true"
                 color="inherit"
               >
-                <FaHeart />
+                <Link className="link" to={"#"}>
+                  <FaHeart />
+                </Link>
               </IconButton>
               <IconButton
                 size="large"
@@ -137,7 +171,9 @@ const Navbar = () => {
                 aria-haspopup="true"
                 color="inherit"
               >
-                <MdLocalOffer />
+                <Link className="link" to={"#"}>
+                  <MdLocalOffer />
+                </Link>
               </IconButton>
             </Toolbar>
           </AppBar>
@@ -160,16 +196,24 @@ const Navbar = () => {
           >
             <Toolbar>
               <IconButton sx={{ flexGrow: 1 }} color="inherit">
-                <AiOutlineHome />
+                <Link className="link" to={"/"}>
+                  <AiOutlineHome />
+                </Link>
               </IconButton>
               <IconButton sx={{ flexGrow: 1 }} color="inherit">
-                <BiCategory />
+                <Link className="link" to={"category"}>
+                  <BiCategory />
+                </Link>
               </IconButton>
               <IconButton sx={{ flexGrow: 1 }} color="inherit">
-                <BiCart />
+                <Link className="link" to={"cart"}>
+                  <BiCart />
+                </Link>
               </IconButton>
               <IconButton sx={{ flexGrow: 1 }} color="inherit">
-                <MdAccountCircle />
+                <Link className="link" to={"profile"}>
+                  <MdAccountCircle />
+                </Link>
               </IconButton>
             </Toolbar>
           </AppBar>

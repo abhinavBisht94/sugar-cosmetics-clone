@@ -53,14 +53,22 @@ const SubNavbar = () => {
           return (
             <li key={item.title}>
               <Box className="menu">
+<<<<<<< Updated upstream
                 <Link to={'#'} className="menu-link">
+=======
+                <Link to={`${item.title}`} className="menu-link">
+>>>>>>> Stashed changes
                   <span>{item.title}</span>
                   <Box className={`dropdown-menu`}>
                     {item.cate &&
                       item.cate.map((sub, index) => (
                         <Link
                           key={`${sub}-${Math.random()}`}
+<<<<<<< Updated upstream
                           to={sub}
+=======
+                          to={`${item.title}/${sub}`}
+>>>>>>> Stashed changes
                           className="dropdown-items"
                         >
                           {sub}

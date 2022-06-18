@@ -13,7 +13,7 @@ module.exports = {
       };
       const secret = process.env.ACCESS_TOKEN_SECRET;
       const options = {
-        expiresIn: "1d",
+        expiresIn: "15s",
         // issuer: "google.com",
         audience: userId,
       };
