@@ -3,9 +3,10 @@ const { Router } = require('express')
 const productRouter = Router()
 const { Product } = require('../../db')
 
-console.log('came')
 
-productRouter.get('/new', (req, res) => {
+
+productRouter.get('/', (req, res) => {
+  
   res.send('working')
 })
 
