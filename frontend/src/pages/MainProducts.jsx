@@ -8,7 +8,7 @@ import { Link, useParams } from "react-router-dom";
 import "../CSS/products.css";
 import { ProductsDetail } from "./ProductsDetail";
 
-export const Products = () =>
+const MainProducts = () =>
     // { data }
     {
         // console.log('data:', data)
@@ -35,18 +35,18 @@ export const Products = () =>
         //   return <ProductsDetail allData={data.dataCategory} data={send} />;
         // }
 
-        const getData = async () => {
-            try {
-                const res = await axios.get(
-                    `http://localhost:8080/product/${main}/${category}`
-                );
-                const data = await res.data;
-                setData(data);
-                console.log("data: ", data);
-            } catch (error) {
-                console.log("error: ", error);
-            }
-        };
+        // const getData = async () => {
+        //     try {
+        //         const res = await axios.get(
+        //             `http://localhost:8080/product/${main}/${category}`
+        //         );
+        //         const data = await res.data;
+        //         setData(data);
+        //         console.log("data: ", data);
+        //     } catch (error) {
+        //         console.log("error: ", error);
+        //     }
+        // };
 
         const getMainData = async () => {
             try {
@@ -61,13 +61,13 @@ export const Products = () =>
             }
         };
 
-        // useEffect(() => {
-        //     getMainData();
-        // }, [main]);
-
         useEffect(() => {
-            getData();
-        }, [category]);
+            getMainData();
+        }, [main]);
+
+        // useEffect(() => {
+        //     getData();
+        // }, [category]);
 
         return (
             <div>
@@ -107,7 +107,7 @@ export const Products = () =>
                                 return (
                                     // div to display individual product
                                     <Link
-                                        to={`${elem._id}`}
+                                        to={`${elem.category}/${elem._id}`}
                                         id="prodDataElem"
                                         className="link"
                                         key={elem._id.$oid}
@@ -157,3 +157,5 @@ export const Products = () =>
             </div>
         );
     };
+
+export default MainProducts;

@@ -54,14 +54,14 @@ productRouter.post("/new", async (req, res) => {
     .catch((e) => res.send(e));
 });
 
-productRouter.get("/:id", async (req, res) => {
-  // console.log('it is coming')
-  // const body = req.body
-  // console.log(body)
-  // console.log(Product, 'model')
-  const product = await Product.findById(req.params.id);
+productRouter.get("/get/:id", async (req, res) => {
+    // console.log('it is coming')
+    // const body = req.body
+    // console.log(body)
+    // console.log(Product, 'model')
+    const product = await Product.findById(req.params.id);
 
-  return res.send(product);
+    return res.send(product);
 });
 
 // productRouter.get("/search", async (req, res) => {
