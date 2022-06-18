@@ -16,7 +16,7 @@ const SubNavbar = () => {
     {
       title: "skincare",
       cate: [
-        "moisturizers",
+        "moisturizer",
         "sunscreen",
         "setting mists",
         "coffee culture range",
