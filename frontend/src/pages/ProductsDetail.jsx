@@ -26,7 +26,9 @@ export const ProductsDetail = ({ allData, data }) => {
 
   const getData = async () => {
     axios
-      .get(`http://localhost:8080/product/${main}/${category}/${id}`)
+      .get(
+        `https://sugarcosmeticsclone.herokuapp.com/product/${main}/${category}/${id}`,
+      )
       .then(function (response) {
         // console.log("response.data[0]:", response.data[0]);
         setProd(response.data[0])
@@ -36,7 +38,7 @@ export const ProductsDetail = ({ allData, data }) => {
       })
 
     axios
-      .get(`http://localhost:8080/product`)
+      .get(`https://sugarcosmeticsclone.herokuapp.com/product`)
       .then(function (response) {
         // console.log("response.data:", response.data);
         setAlldata(response.data)
@@ -46,7 +48,7 @@ export const ProductsDetail = ({ allData, data }) => {
         console.log('error:', error)
       })
   }
-const user = JSON.parse(localStorage.getItem('User'))
+  const user = JSON.parse(localStorage.getItem('User'))
   const toCart = () => {
     setUserAndProduct({
       user_id: singleUser._id,
@@ -56,14 +58,14 @@ const user = JSON.parse(localStorage.getItem('User'))
     console.log(userAndProduct)
   }
 
-  
-
   const addToCart = async () => {
     try {
-      const res = await axios.post(`http://localhost:8080/cart/${user._id}`,prod)
+      const res = await axios.post(
+        `https://sugarcosmeticsclone.herokuapp.com/cart/${user._id}`,
+        prod,
+      )
       const data = await res.data
       console.log('cart-data: ', data)
-      
     } catch (error) {
       console.log('error: ', error)
     }

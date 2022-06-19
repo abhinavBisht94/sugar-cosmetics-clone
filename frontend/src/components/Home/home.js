@@ -9,7 +9,7 @@ export const Home = () => {
   const [allData,setallData]=useState([])
  
   useEffect(() => {
-     axios.get("http://localhost:8080/product").then((data)=>setallData(data.data)).catch(e=>console.log(e))
+     axios.get("https://sugarcosmeticsclone.herokuapp.com/product").then((data)=>setallData(data.data)).catch(e=>console.log(e))
   
    
 
