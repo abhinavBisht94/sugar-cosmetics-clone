@@ -17,62 +17,7 @@ import {
 } from "../../CSS/Styles";
 
 export const Delivery = () => {
-    const handleClick = () => {
-      let savedAddress = JSON.parse(localStorage.getItem("address"));
-
-      if (savedAddress == null) {
-        addressBlock();
-      } else {
-        window.location.href = "payment.html";
-      }
-  }
-
-  function addressBlock() {
-    let userD = JSON.parse(localStorage.getItem("accDetails"));
-    let forM = document.getElementById("addressForm");
-    forM.style.display = "block";
-    let cartDiv = document.getElementById("cartDiv");
-    cartDiv.style.opacity = 0.4;
-    document.getElementById("fullN").value =
-      userD.firstName + " " + userD.lastName;
-    document.getElementById("PhOnE").value = userD.mob;
-  }
-
-  document.getElementById("addressSave").addEventListener("click", function () {
-    addressSave();
-  });
-
-  function addressSave() {
-    let add1 = document.getElementById("addln1").value;
-    let add2 = document.getElementById("addln2").value;
-    let pin = document.getElementById("pin").value;
-    let country = document.getElementById("country").value;
-    let state = document.getElementById("state").value;
-    let city = document.getElementById("city").value;
-
-    let addrData = { add1, add2, pin, city, state, country };
-
-    localStorage.setItem("address", JSON.stringify(addrData));
-    window.location.reload();
-  }
-    let savedAddress = JSON.parse(localStorage.getItem("address"));
-    console.log("savedAddress:", savedAddress);
-
-    let userD = JSON.parse(localStorage.getItem("accDetails"));
-    if (userD) {
-      document.getElementById("recName").innerText =
-        userD.firstName + " " + userD.lastName;
-      document.getElementById("recmob").innerText = userD.mob;
-    }
-    if (savedAddress) {
-      document.getElementById(
-        "recln1"
-      ).innerText = `${savedAddress.add1},${savedAddress.add2}`;
-      document.getElementById(
-        "recln2"
-      ).innerText = `${savedAddress.city},${savedAddress.state},${savedAddress.pin},${savedAddress.country},`;
-    }
-
+    
 
   return (
     <div>
@@ -169,16 +114,16 @@ export const Delivery = () => {
             </div>
 
             <div id="displayAddress">
-              <p id="recName"></p>
-              <p id="recmob"></p>
-              <p id="recln1"></p>
-              <p id="recln2"></p>
+              <p id="recName">Chiranjit Behera</p>
+              <p id="recmob">+91 9090475233</p>
+              <p id="recln1">Bhadrak</p>
+              <p id="recln2">Odisha</p>
             </div>
 
             <DelInfo>
               <Link to="/cart">Offers and Pricing</Link>
-              <Link to="/delivery">
-                <DelInfoBTN1 onClick={handleClick}>Delivery Information</DelInfoBTN1>
+              <Link to="/payment">
+                <DelInfoBTN1 >Delivery Information</DelInfoBTN1>
               </Link>
             </DelInfo>
           </div>
