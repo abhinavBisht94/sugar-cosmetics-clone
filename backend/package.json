@@ -13,7 +13,8 @@
     "nodemon": "^2.0.16"
   },
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "name": "backend",
   "version": "1.0.0",

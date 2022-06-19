@@ -58,6 +58,10 @@ app.use(async (err, req, res, next) => {
   });
 });
 
+app.get("/", (req, res) => {
+  res.send("working")
+})
+
 app.listen(PORT, async () => {
   try {
     await connection;
