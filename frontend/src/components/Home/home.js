@@ -1,9 +1,26 @@
-import React from 'react'
+import React,{useEffect, useState} from 'react'
 import MainSlider from './mainSlider'
 import MultiImage from './multiImage'
-import Products from './Homeproducts'
+import Products from './Homeproducts';
+import axios from "axios"
 
 export const Home = () => {
+
+  const [allData,setallData]=useState([])
+ 
+  useEffect(() => {
+     axios.get("http://localhost:8080/product").then((data)=>setallData(data.data)).catch(e=>console.log(e))
+  
+   
+
+    
+  },[])
+console.log(allData,"all dat FROM HOME")
+
+
+
+
+
   const arr = [
     'https://d32baadbbpueqt.cloudfront.net/Homepage/70252059-0efb-40b0-b659-6d27afafa0ee.jpg',
     'https://d32baadbbpueqt.cloudfront.net/Homepage/309d5880-c650-4773-9cb9-5b8efc593ac0.jpg',
@@ -15,72 +32,6 @@ export const Home = () => {
     'https://d32baadbbpueqt.cloudfront.net/Homepage/85bc9b9b-d8b3-4fa1-a1b0-a77ca9428664.jpg',
   ]
 
-  const product = [
-    {
-      ImageUrl:
-        'https://cdn.shopify.com/s/files/1/0906/2558/products/AirKissPowderPoweredByImagesArtboard1.jpg?v=1644813116',
-      Title: 'Air Kiss Powder Lipstick',
-      Price: 400,
-      currency: '₹',
-      tagUrl: 'https://in.sugarcosmetics.com/Tags/New_Ribbon.png',
-    },
-    {
-      ImageUrl:
-        'https://cdn.shopify.com/s/files/1/0906/2558/products/AirKissPowderPoweredByImagesArtboard1.jpg?v=1644813116',
-      Title: 'Air Kiss Powder Lipstick',
-      Price: 500,
-      currency: '₹',
-      tagUrl: 'https://in.sugarcosmetics.com/Tags/New_Ribbon.png',
-    },
-    {
-      ImageUrl:
-        'https://cdn.shopify.com/s/files/1/0906/2558/products/AirKissPowderPoweredByImagesArtboard1.jpg?v=1644813116',
-      Title: 'Air Kiss Powder Lipstick',
-      Price: 600,
-      currency: '₹',
-      tagUrl: 'https://in.sugarcosmetics.com/Tags/New_Ribbon.png',
-    },
-    {
-      ImageUrl:
-        'https://cdn.shopify.com/s/files/1/0906/2558/products/AirKissPowderPoweredByImagesArtboard1.jpg?v=1644813116',
-      Title: 'Air Kiss Powder Lipstick',
-      Price: 700,
-      currency: '₹',
-      tagUrl: 'https://in.sugarcosmetics.com/Tags/New_Ribbon.png',
-    },
-    {
-      ImageUrl:
-        'https://cdn.shopify.com/s/files/1/0906/2558/products/AirKissPowderPoweredByImagesArtboard1.jpg?v=1644813116',
-      Title: 'Air Kiss Powder Lipstick',
-      Price: 800,
-      currency: '₹',
-      tagUrl: 'https://in.sugarcosmetics.com/Tags/New_Ribbon.png',
-    },
-    {
-      ImageUrl:
-        'https://cdn.shopify.com/s/files/1/0906/2558/products/AirKissPowderPoweredByImagesArtboard1.jpg?v=1644813116',
-      Title: 'Air Kiss Powder Lipstick',
-      Price: 900,
-      currency: '₹',
-      tagUrl: 'https://in.sugarcosmetics.com/Tags/New_Ribbon.png',
-    },
-    {
-      ImageUrl:
-        'https://cdn.shopify.com/s/files/1/0906/2558/products/AirKissPowderPoweredByImagesArtboard1.jpg?v=1644813116',
-      Title: 'Air Kiss Powder Lipstick',
-      Price: 1000,
-      currency: '₹',
-      tagUrl: 'https://in.sugarcosmetics.com/Tags/New_Ribbon.png',
-    },
-    {
-      ImageUrl:
-        'https://cdn.shopify.com/s/files/1/0906/2558/products/AirKissPowderPoweredByImagesArtboard1.jpg?v=1644813116',
-      Title: 'Air Kiss Powder Lipstick',
-      Price: 1100,
-      currency: '₹',
-      tagUrl: 'https://in.sugarcosmetics.com/Tags/New_Ribbon.png',
-    },
-  ]
 
   const tips = [
     'https://d32baadbbpueqt.cloudfront.net/Homepage/11b811a4-2faa-4985-98f0-01af9f2df943.jpg',
@@ -131,7 +82,7 @@ export const Home = () => {
       </div>
       <div className="ProductsDiv_First_home">
         <h3 className="allHeads_home">BESTSELLERS</h3>
-        <Products arr={product} />
+        <Products arr={allData} type="lips" />
       </div>
       <div className="beautyTips_home">
         <h2 className="allHeads_home">QUICK BEAUTY TIPS WITH SUGAR</h2>
@@ -147,7 +98,7 @@ export const Home = () => {
       </div>
       <div className="superSaver_home">
         <h2 className="allHeads_home">SUPER SAVER</h2>
-        <Products arr={product} />
+        <Products arr={allData} type="face" />
       </div>
       <div className="TopPicks_home">
         <h2 className="allHeads_home">TOP PICKS OF THE WEEK</h2>
@@ -155,7 +106,7 @@ export const Home = () => {
       </div>
       <div className="Gifting_home">
         <h2 className="allHeads_home">GIFTING</h2>
-        <Products arr={product} />
+        <Products arr={allData} type="face brushes" />
       </div>
       <div>
         <h2 className="allHeads_home">THIS OR THAT</h2>
@@ -172,7 +123,7 @@ export const Home = () => {
       </div>
       <div className="Justin">
         <h2 className="allHeads_home">JUST-IN</h2>
-        <Products arr={product} />
+        <Products arr={allData} type="eyes" />
       </div>
       <div>
         <h2 className="allHeads_home">SUGAR BEAUTY BLOG</h2>
@@ -180,7 +131,7 @@ export const Home = () => {
       </div>
       <div>
         <h2 className="allHeads_home">SKINCARE BASICS</h2>
-        <Products arr={product} />
+        <Products arr={allData} type="moisturizer" />
       </div>
     </div>
   )

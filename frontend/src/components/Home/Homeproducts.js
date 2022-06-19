@@ -1,6 +1,8 @@
 import React, { useRef, useState } from 'react'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react'
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 // Import Swiper styles
 import 'swiper/css'
@@ -12,11 +14,12 @@ import styles from './product.module.css'
 // import required modules
 import { Pagination, Navigation } from 'swiper'
 
-export default function Products({ arr }) {
-  const { innerWidth, innerHeight } = window
+export default function Products({ arr, type }) {
+  const notify = () => toast.success('added to cart')
+  // notify()
 
   // console.log(innerWidth)
-  var perview = 0
+  arr = arr.filter((elm) => elm.category === type)
 
   return (
     <>
@@ -68,7 +71,7 @@ export default function Products({ arr }) {
                   {elm.strikePrice && <strike> {elm.strikePrice}</strike>}
                 </div>
                 <div>
-                  <p>{elm.currency}</p>
+                  <p>{elm.Currency}</p>
                   <p>{elm.Price}</p>
                 </div>
                 <div className={styles.discount}>
@@ -76,11 +79,24 @@ export default function Products({ arr }) {
                   {elm.discount && <p> ({elm.discount}% Off )</p>}{' '}
                 </div>
               </div>
-              <button className={styles.addDiv_home}>ADD TO CART</button>
+              <button onClick={notify} className={styles.addDiv_home}>
+                ADD TO CART
+              </button>
             </div>
           </SwiperSlide>
         ))}
       </Swiper>
+      <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
     </>
   )
 }
