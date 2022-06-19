@@ -8,6 +8,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Account from "../components/user/Account";
 import AuthContext from "../context/AuthContext";
 import { Cart } from "../pages/demo/Cart";
+import { Delivery } from "../pages/demo/Delivery";
 import { Payment } from "../pages/demo/Payment";
 import Success from "../pages/demo/Success";
 import MainProducts from "../pages/MainProducts";
@@ -38,6 +39,7 @@ const AllRoutes = () => {
                         // </AuthContext>
                     }
                 />
+                <Route path="/delivery" element={<Delivery />} />
                 <Route path="/payment" element={<Payment />} />
                 <Route path="/success" element={<Success />} />
             </Routes>
