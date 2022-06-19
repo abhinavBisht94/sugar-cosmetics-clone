@@ -69,7 +69,7 @@ export const Payment = () => {
                 />
                 <p>Cart Sub Total:</p>
               </Dis11>
-              <p id="subtotal">1089</p>
+              <p id="subtotal">999</p>
             </Dis1>
             <Dis2>
               <Dis21>
@@ -97,9 +97,9 @@ export const Payment = () => {
                   src="https://in.sugarcosmetics.com/desc-images/AmountPayable.svg"
                   alt=""
                 />
-                <p>Amount Payable: 1089</p>
+                <p>Amount Payable: </p>
               </Dis41>
-              <Payable>{total}</Payable>
+              <Payable>999</Payable>
             </Dis4>
           </PriceDis>
 

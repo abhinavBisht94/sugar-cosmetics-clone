@@ -113,7 +113,7 @@ const Navbar = () => {
                             <Link className="link" to={"/cart"}>
                                 <FaShoppingCart />
                             </Link>
-                            <p>{cartCount}</p>
+                            {/* <p>{cartCount}</p> */}
                         </div>
                         <Link className="link" to={"#"}>
                             <MdLocalOffer />

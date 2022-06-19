@@ -13,6 +13,7 @@ import styles from './product.module.css'
 
 // import required modules
 import { Pagination, Navigation } from 'swiper'
+import axios from 'axios'
 
 export default function Products({ arr, type }) {
   const notify = () => toast.success('added to cart')
