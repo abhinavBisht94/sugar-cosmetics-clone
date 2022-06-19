@@ -6,8 +6,8 @@ const cartRouter = Router();
 
 cartRouter.post("/", async (req, res) => {
     try {
-      // const e_id = req.body.product_id;
-      // // const cart = await Cart.create(req.body);
+        // const e_id = req.body.product_id;
+        // // const cart = await Cart.create(req.body);
         // const existing = await Cart.find({ product_id: e_id });
         // console.log("existing: ", existing[0].product_id);
         // if (
@@ -21,10 +21,10 @@ cartRouter.post("/", async (req, res) => {
         //     );
         //     return res.status(201).send("updated");
         // } else {
-          //   return res.status(201).send(cart);
-          // }
-          const cart = await Cart.create(req.body);
-          return res.status(201).send(cart);
+        //   return res.status(201).send(cart);
+        // }
+        const cart = await Cart.create(req.body);
+        return res.status(201).send(cart);
         // console.log("req.body: ", req.body);
     } catch (error) {
         return res.status(500).send({ message: error.message });
