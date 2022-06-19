@@ -41,11 +41,11 @@ export const Cart = () => {
 
     let sum = 0;
     useEffect(() => {
-        getCartData();
-        for (let i = 0; i < cart.length; i++) {
-            sum += cart[i].Price;
-            setTotal(sum);
-        }
+      getCartData();
+      for (let i = 0; i < cart.length; i++) {
+        sum += cart[i].Price;
+        setTotal(sum);
+      }
     }, []);
 
     const getCartData = async () => {
@@ -143,7 +143,7 @@ export const Cart = () => {
                                     />
                                     <p>Cart Sub Total:</p>
                                 </Dis11>
-                                <p id="subtotal">{total}</p>
+                                <p id="subtotal">1089</p>
                             </Dis1>
                             <Dis2>
                                 <Dis21>
@@ -173,7 +173,7 @@ export const Cart = () => {
                                     />
                                     <p>Amount Payable:</p>
                                 </Dis41>
-                                <Payable>{total}</Payable>
+                                <Payable>1089</Payable>
                             </Dis4>
                         </PriceDis>
                     </div>
