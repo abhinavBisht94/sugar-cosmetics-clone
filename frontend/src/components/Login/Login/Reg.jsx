@@ -28,6 +28,7 @@ const Reg = () => {
 
       let data = await res.data;
       setSingleUser(data.user);
+      localStorage.setItem("User", JSON.stringify(data.user));
       if (data) {
         setIsLoggedIn(true);
         navigate(-2);
