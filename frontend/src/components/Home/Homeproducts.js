@@ -17,6 +17,21 @@ import { Pagination, Navigation } from 'swiper'
 export default function Products({ arr, type }) {
   const notify = () => toast.success('added to cart')
   // notify()
+const user = JSON.parse(localStorage.getItem('User'))
+  const addToCart = async (prod) => {
+    try {
+      const res = await axios.post(`http://localhost:8080/cart/${user._id}`,prod)
+      const data = await res.data
+      console.log('cart-data: ', data)
+      
+    } catch (error) {
+      console.log('error: ', error)
+    }
+  }
+
+
+
+
 
   // console.log(innerWidth)
   arr = arr.filter((elm) => elm.category === type)
@@ -79,7 +94,10 @@ export default function Products({ arr, type }) {
                   {elm.discount && <p> ({elm.discount}% Off )</p>}{' '}
                 </div>
               </div>
-              <button onClick={notify} className={styles.addDiv_home}>
+              <button onClick={() => {
+                addToCart(elm);
+                notify()
+              }} className={styles.addDiv_home}>
                 ADD TO CART
               </button>
             </div>
