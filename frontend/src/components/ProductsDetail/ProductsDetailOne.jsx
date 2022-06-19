@@ -1,6 +1,8 @@
 import "../../CSS/productsDetail/productsDetailOne.css";
 
 export const ProductsDetailOne = ({ data }) => {
+  console.log("data:", data);
+
   let rating = +data.Rating;
   let key = 1;
   let fullStar =
@@ -44,7 +46,7 @@ export const ProductsDetailOne = ({ data }) => {
           </p>
         </div>
 
-        <p>{data.Price}</p>
+        <p>{data.Currency}{data.Price}</p>
 
         <button id="prodDetailCart">Add to cart</button>
 
