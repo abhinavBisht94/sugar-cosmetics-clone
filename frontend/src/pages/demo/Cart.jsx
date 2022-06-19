@@ -1,5 +1,6 @@
 import React from "react";
 import "./Cart.css";
+// import { CartContext } from "../../context/CartContext";
 import {
   Body,
   CartDiv,
@@ -24,6 +25,8 @@ import {
 import { Link } from "react-router-dom";
 
 export const Cart = () => {
+  // const { Cart, amount } = useContext(CartContext);
+  // const navigate = useNavigate();
   return (
     <Body>
       <Makeup>

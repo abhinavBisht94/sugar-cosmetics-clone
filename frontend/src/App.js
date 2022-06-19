@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 import { Home } from "./components/Home/home";
 import AllRoutes from "./routes/AllRoutes";
 
+
 function App() {
   // console.log("prodEyes[0]:", prodEyes.dataCategory[0]);
 
