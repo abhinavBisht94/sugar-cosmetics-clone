@@ -23,7 +23,7 @@ const LoginPage = () => {
 
     const getUserData = async () => {
         try {
-            let res = await axios.post("http://localhost:8080/auth/login", {
+            let res = await axios.post("https://sugarcosmeticsclone.herokuapp.com/auth/login", {
                 number: +number,
             });
 

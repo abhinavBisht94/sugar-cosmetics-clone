@@ -41,7 +41,7 @@ export const Payment = () => {
 
     const getCartData = async () => {
         try {
-            let res = await fetch(`http://localhost:8080/cart/${user._id}`);
+            let res = await fetch(`https://sugarcosmeticsclone.herokuapp.com/cart/${user._id}`);
             let data = await res.json();
             setCart(data[0].cart);
         } catch (error) {

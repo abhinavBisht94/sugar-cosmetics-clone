@@ -19,7 +19,7 @@ const Reg = () => {
 
   const handleRegister = async () => {
     try {
-      let res = await axios.post("http://localhost:8080/auth/register", {
+      let res = await axios.post("https://sugarcosmeticsclone.herokuapp.com/auth/register", {
         fName,
         lName,
         number,
