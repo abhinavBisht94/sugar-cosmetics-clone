@@ -1,36 +1,36 @@
-import axios from "axios";
-import React from "react";
-import { useEffect } from "react";
-import { Suspense } from "react";
-import { useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import axios from 'axios'
+import React from 'react'
+import { useEffect } from 'react'
+import { Suspense } from 'react'
+import { useState } from 'react'
+import { Link, useParams } from 'react-router-dom'
 
-import "../CSS/products.css";
-import { ProductsDetail } from "./ProductsDetail";
+import '../CSS/products.css'
+import { ProductsDetail } from './ProductsDetail'
 
 export const Products = () =>
   // { data }
   {
     // console.log('data:', data)
     // console.log("data:", data.dataCategory);
-    const { main, category, id } = useParams();
+    const { main, category, id } = useParams()
 
-    const [display, setDisplay] = useState(false);
-    const [send, setSend] = useState({});
-    const [data, setData] = useState([]);
-    const [banner, setBanner] = useState(false);
+    const [display, setDisplay] = useState(false)
+    const [send, setSend] = useState({})
+    const [data, setData] = useState([])
+    const [banner, setBanner] = useState(false)
 
     const itemClicked = (id) => {
-      console.log("clicked item id: ", id);
+      console.log('clicked item id: ', id)
       data.dataCategory.map((elem) => {
         if (elem._id.$oid === id) {
-          setSend(elem);
-          console.log("send:", send);
+          setSend(elem)
+          console.log('send:', send)
 
-          setDisplay(!display);
+          setDisplay(!display)
         }
-      });
-    };
+      })
+    }
 
     // if (display) {
     //   return <ProductsDetail allData={data.dataCategory} data={send} />;
@@ -39,36 +39,36 @@ export const Products = () =>
     const getData = async () => {
       try {
         const res = await axios.get(
-          `http://localhost:8080/product/${main}/${category}`
-        );
-        const data = await res.data;
-        setData(data);
+          `https://sugarcosmeticsclone.herokuapp.com/product/${main}/${category}`,
+        )
+        const data = await res.data
+        setData(data)
 
-        if (data[0].prodEyesBanner !== undefined) setBanner(true);
-        console.log("data: ", data);
+        if (data[0].prodEyesBanner !== undefined) setBanner(true)
+        console.log('data: ', data)
       } catch (error) {
-        console.log("error: ", error);
+        console.log('error: ', error)
       }
-    };
+    }
 
     const getMainData = async () => {
       try {
-        const res = await axios.get(`http://localhost:8080/product/${main}`);
-        const data = await res.data;
-        setData(data);
-        console.log("data: ", data);
+        const res = await axios.get(`http://localhost:8080/product/${main}`)
+        const data = await res.data
+        setData(data)
+        console.log('data: ', data)
       } catch (error) {
-        console.log("error: ", error);
+        console.log('error: ', error)
       }
-    };
+    }
 
     // useEffect(() => {
     //     getMainData();
     // }, [main]);
 
     useEffect(() => {
-      getData();
-    }, [category]);
+      getData()
+    }, [category])
 
     return (
       <div>
@@ -125,13 +125,13 @@ export const Products = () =>
                       src={elem.ImageUrl}
                       alt={elem.Title}
                       onClick={() => {
-                        itemClicked(elem._id.$oid);
+                        itemClicked(elem._id.$oid)
                       }}
                     />
 
                     <p
                       onClick={() => {
-                        itemClicked(elem._id.$oid);
+                        itemClicked(elem._id.$oid)
                       }}
                     >
                       {elem.Title}
@@ -161,10 +161,10 @@ export const Products = () =>
                       <button>ADD TO CART</button>
                     </div>
                   </Link>
-                );
+                )
               })}
           </div>
         </Suspense>
       </div>
-    );
-  };
+    )
+  }
