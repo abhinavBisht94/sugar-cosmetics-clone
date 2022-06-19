@@ -51,7 +51,7 @@ const MainProducts = () =>
         const getMainData = async () => {
             try {
                 const res = await axios.get(
-                    `http://localhost:8080/product/${main}`
+                    `https://sugarcosmeticsclone.herokuapp.com/product/${main}`
                 );
                 const data = await res.data;
                 setData(data);
