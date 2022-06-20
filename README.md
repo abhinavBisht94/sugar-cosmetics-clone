@@ -24,19 +24,19 @@ Hosted website (Vercel) :  https://sugar-cosmetics-clone-sand.vercel.app/
 <p>React || Mongodb || Express-js || Node-js || CSS</p>
 
 <br/>
-<img src="https://miro.medium.com/max/1400/1*Tmf2OG61QbwoMycMjz0kzQ.png"/>
+<img width="90%" src="https://miro.medium.com/max/1400/1*Tmf2OG61QbwoMycMjz0kzQ.png"/>
 
 <br/>
-<img src="https://miro.medium.com/max/1400/1*HwzbA8qMmBwWZ1kZLCvukg.png"/>
+<img width="90%" src="https://miro.medium.com/max/1400/1*HwzbA8qMmBwWZ1kZLCvukg.png"/>
 
 <br/>
-<img src="https://miro.medium.com/max/1400/1*PfWNFHzzIXNfUv2DV7ZKVA.png"/>
+<img width="90%" src="https://miro.medium.com/max/1400/1*PfWNFHzzIXNfUv2DV7ZKVA.png"/>
 
 <br/>
-<img src="https://miro.medium.com/max/1400/1*BTq1ZjKtB_8c_RAWSenlVw.png"/>
+<img width="90%" src="https://miro.medium.com/max/1400/1*BTq1ZjKtB_8c_RAWSenlVw.png"/>
 
 <br/>
-<img src="https://miro.medium.com/max/1400/1*hSSJqdOsXDIapGBzG3TDIg.png"/>
+<img width="90%" src="https://miro.medium.com/max/1400/1*hSSJqdOsXDIapGBzG3TDIg.png"/>
 
 
 
