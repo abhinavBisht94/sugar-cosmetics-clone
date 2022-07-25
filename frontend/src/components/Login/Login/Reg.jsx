@@ -19,12 +19,15 @@ const Reg = () => {
 
   const handleRegister = async () => {
     try {
-      let res = await axios.post("https://sugarcosmeticsclone.herokuapp.com/auth/register", {
-        fName,
-        lName,
-        number,
-        email,
-      });
+      let res = await axios.post(
+        "https://sugarcosmeticsclone.herokuapp.com/auth/register",
+        {
+          fName,
+          lName,
+          number,
+          email,
+        }
+      );
 
       let data = await res.data;
       setSingleUser(data.user);
