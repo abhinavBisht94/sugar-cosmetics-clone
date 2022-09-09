@@ -1,150 +1,150 @@
 .app__footer {
-    background: #000;
-    color: #fff;
-    padding: 0.5rem 5rem;
-    margin-top: 4rem;
+  background: #000;
+  color: #fff;
+  padding: 0.5rem 5rem;
+  margin-top: 4rem;
 }
 
 @media screen and (max-width: 850px) {
-    .app__footer {
-        display: none;
-    }
+  .app__footer {
+    display: none;
+  }
 }
 
 .app__footer > .footer__social-logo {
-    text-align: center;
+  text-align: center;
 }
 
 .app__footer > .footer__social-logo > .footer__icons > .icons {
-    margin: 0 1rem;
-    color: #999;
-    font-size: 1.5rem;
-    cursor: pointer;
+  margin: 0 1rem;
+  color: #999;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .footer__second-line {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer__second-line > .footer__newsletter {
-    flex: 1;
+  flex: 1;
 }
 
 .footer__second-line > .footer__newsletter > .footer__newsletter-title {
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    margin: 2rem 0;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin: 2rem 0;
 }
 
 .footer__second-line > .footer__newsletter > .footer__input > input {
-    width: 60%;
-    color: #fff;
-    padding: 0.75rem 0.25rem;
-    border: none;
-    outline: none;
-    background: transparent;
-    border-bottom: 2px solid #fff;
-    margin-bottom: 4rem;
-    font-size: 1.25rem;
+  width: 60%;
+  color: #fff;
+  padding: 0.75rem 0.25rem;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 4rem;
+  font-size: 1.25rem;
 }
 
 .footer__second-line > .footer__newsletter > .footer__input > button {
-    background: #fc2779;
-    border-radius: 8px;
-    color: #fff;
-    padding: 0.5rem;
-    width: 20%;
-    font-size: 1.25rem;
-    text-transform: uppercase;
+  background: #fc2779;
+  border-radius: 8px;
+  color: #fff;
+  padding: 0.5rem;
+  width: 20%;
+  font-size: 1.25rem;
+  text-transform: uppercase;
 }
 
 .footer__apps {
-    /* border: 2px solid; */
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
+  /* border: 2px solid; */
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .footer__apps > p {
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    margin: 0 0 2rem 0;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin: 0 0 2rem 0;
 }
 
 .footer__apps > .footer__apps-info {
-    display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
 .footer__apps > .footer__apps-info > p {
-    flex: 0.5;
-    margin-right: 2rem;
+  flex: 0.5;
+  margin-right: 2rem;
 }
 
 .footer__apps > .footer__apps-info > .footer-apps-img {
-    flex: 0.5;
+  flex: 0.5;
 }
 
 .footer__apps > .footer__apps-info > .footer-apps-img > img {
-    cursor: pointer;
-    margin: 0 0.5rem;
+  cursor: pointer;
+  margin: 0 0.5rem;
 }
 
 .footer__information {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .footer__information > p {
-    text-transform: uppercase;
-    margin-bottom: 1.5rem;
-    font-size: 1.25rem;
-    font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 
 .footer__information > .footer__information-details {
-    /* border: 2px solid; */
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1.15rem;
-    color: #999;
-    margin-bottom: 2rem;
+  /* border: 2px solid; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.15rem;
+  color: #999;
+  margin-bottom: 2rem;
 }
 
 .footer__information > .footer__information-details > p:hover,
 div > P:nth-child(2):hover {
-    cursor: pointer;
-    text-decoration: underline;
-    color: #fff;
+  cursor: pointer;
+  text-decoration: underline;
+  color: #fff;
 }
 
 .footer__information > .footer__information-details > div > .title {
-    color: #fff;
-    margin: 0.3rem 0;
-    font-size: 1.1rem;
-    font-weight: 500;
+  color: #fff;
+  margin: 0.3rem 0;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .footer__information > .footer__information-details > div > p:nth-child(3) {
-    font-size: 0.75rem;
-    margin: 0.3rem 0;
+  font-size: 0.75rem;
+  margin: 0.3rem 0;
 }
 
 hr {
-    border: 1px solid #999;
+  border: 1px solid #999;
 }
 
 .copyright {
-    text-align: center;
-    margin: 1rem;
-    font-weight: 500;
+  text-align: center;
+  margin: 1rem;
+  font-weight: 500;
 }

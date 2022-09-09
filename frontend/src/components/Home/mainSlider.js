@@ -1,19 +1,18 @@
-import React, { useRef, useState } from 'react'
+import React, { useRef, useState } from "react";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react'
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import 'swiper/css'
-import 'swiper/css/pagination'
-import 'swiper/css/navigation'
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
-import './mainSlider.css'
+import "./mainSlider.css";
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from 'swiper'
+import { Autoplay, Pagination, Navigation } from "swiper";
 
 export default function MainSlider({ arr }) {
-  
   return (
     <>
       <Swiper
@@ -37,5 +36,5 @@ export default function MainSlider({ arr }) {
         ))}
       </Swiper>
     </>
-  )
+  );
 }

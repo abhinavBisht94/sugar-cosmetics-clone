@@ -1,44 +1,44 @@
-import React, { useRef, useState } from 'react'
+import React, { useRef, useState } from "react";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { ToastContainer, toast } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css'
+import { Swiper, SwiperSlide } from "swiper/react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 // Import Swiper styles
-import 'swiper/css'
-import 'swiper/css/pagination'
-import 'swiper/css/navigation'
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
-import styles from './product.module.css'
+import styles from "./product.module.css";
 
 // import required modules
-import { Pagination, Navigation } from 'swiper'
-import axios from 'axios'
+import { Pagination, Navigation } from "swiper";
+import axios from "axios";
 
 export default function Products({ arr, type }) {
-  const notify = () => toast.success('added to cart')
+  const notify = () => toast.success("added to cart");
   // notify()
-  const user = JSON.parse(localStorage.getItem('User'))
+  const user = JSON.parse(localStorage.getItem("User"));
   const addToCart = async (prod) => {
     try {
       const res = await axios.post(
         `https://sugarcosmeticsclone.herokuapp.com/cart/${user._id}`,
-        prod,
-      )
-      const data = await res.data
-      console.log('cart-data: ', data)
+        prod
+      );
+      const data = await res.data;
+      console.log("cart-data: ", data);
     } catch (error) {
-      console.log('error: ', error)
+      console.log("error: ", error);
     }
-  }
+  };
 
   // console.log(innerWidth)
-  arr = arr.filter((elm) => elm.category === type)
+  arr = arr.filter((elm) => elm.category === type);
 
   return (
     <>
       <Swiper
-        slidesPerView={'auto'}
+        slidesPerView={"auto"}
         spaceBetween={0}
         slidesPerGroup={4}
         loop={true}
@@ -63,12 +63,12 @@ export default function Products({ arr, type }) {
             slidesPerGroup: 2,
           },
 
-          '@1.25': {
+          "@1.25": {
             slidesPerView: 3,
             spaceBetween: 40,
             slidesPerGroup: 3,
           },
-          '@1.75': {
+          "@1.75": {
             slidesPerView: 4,
             spaceBetween: 50,
             slidesPerGroup: 4,
@@ -89,14 +89,14 @@ export default function Products({ arr, type }) {
                   <p>{elm.Price}</p>
                 </div>
                 <div className={styles.discount}>
-                  {' '}
-                  {elm.discount && <p> ({elm.discount}% Off )</p>}{' '}
+                  {" "}
+                  {elm.discount && <p> ({elm.discount}% Off )</p>}{" "}
                 </div>
               </div>
               <button
                 onClick={() => {
-                  addToCart(elm)
-                  notify()
+                  addToCart(elm);
+                  notify();
                 }}
                 className={styles.addDiv_home}
               >
@@ -118,5 +118,5 @@ export default function Products({ arr, type }) {
         pauseOnHover
       />
     </>
-  )
+  );
 }

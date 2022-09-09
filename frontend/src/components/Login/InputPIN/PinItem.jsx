@@ -7,7 +7,7 @@ const defaultStyle = {
   height: "28px",
   border: "1px solid white",
   padding: "10px",
-  borderBottom: "2px solid "
+  borderBottom: "2px solid ",
 };
 
 const PinItem = React.forwardRef(

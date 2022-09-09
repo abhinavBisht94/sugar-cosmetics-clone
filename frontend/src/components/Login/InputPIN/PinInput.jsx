@@ -38,7 +38,6 @@ function PinInput({ noOfBoxes = 4, length = 1, onChange }) {
         display: "flex",
         justifyContent: "center",
         flexDirection: "row",
-        
       }}
     >
       {arr.map((_, i) => (

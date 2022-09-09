@@ -1,16 +1,16 @@
-import React, { useRef, useState } from 'react'
+import React, { useRef, useState } from "react";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react'
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import 'swiper/css'
-import 'swiper/css/pagination'
-import 'swiper/css/navigation'
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
-import styles from './multiImage.module.css'
+import styles from "./multiImage.module.css";
 
 // import required modules
-import { Pagination, Navigation } from 'swiper'
+import { Pagination, Navigation } from "swiper";
 
 export default function MultiImage({ arr }) {
   return (
@@ -20,21 +20,17 @@ export default function MultiImage({ arr }) {
           576: {
             // width: 576,
             slidesPerView: 1,
-            
           },
           850: {
             // width: 768,
             slidesPerView: 2,
-            
           },
           1400: {
             // width: 768,
             slidesPerView: 3,
-            
           },
         }}
         centeredSlides={true}
-        
         spaceBetween={10}
         slidesPerGroup={3}
         loop={true}
@@ -46,7 +42,6 @@ export default function MultiImage({ arr }) {
         modules={[Pagination, Navigation]}
         className="mySwiper"
         id="multiImageSlider"
-        
       >
         {arr.map((elm, index) => (
           <SwiperSlide key={index}>
@@ -55,5 +50,5 @@ export default function MultiImage({ arr }) {
         ))}
       </Swiper>
     </>
-  )
+  );
 }

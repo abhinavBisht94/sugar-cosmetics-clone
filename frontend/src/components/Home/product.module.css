@@ -9,14 +9,11 @@
   height: 40px;
   cursor: pointer;
 }
-.ProductSwiper  {
+.ProductSwiper {
   width: 80vw !important;
   margin: auto !important;
   /* z-index: -1; */
 }
-
-
-
 
 .productsDiv_individual_home_first > img {
   width: 183px;

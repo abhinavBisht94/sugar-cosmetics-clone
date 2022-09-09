@@ -54,7 +54,10 @@ export const ProductsDetailFour = (data) => {
                 <div className="pd4SimilarProducts">
                   <img src={elem.ImageUrl} alt={elem.prodEyesHeading} />
                   <h5>{elem.Title}</h5>
-                  <p>{elem.Currency}{elem.Price}</p>
+                  <p>
+                    {elem.Currency}
+                    {elem.Price}
+                  </p>
                   <button>Notify Me</button>
                 </div>
               </SwiperSlide>

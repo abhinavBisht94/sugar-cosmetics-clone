@@ -1,112 +1,111 @@
-#contactInfoDiv{
-    background-color:  #faf9f9;
-    padding: 4px, 8px, 4px ,8px;
-    border-radius: 15px;
-    gap: 5px;
+#contactInfoDiv {
+  background-color: #faf9f9;
+  padding: 4px, 8px, 4px, 8px;
+  border-radius: 15px;
+  gap: 5px;
 }
-#fullNameNnum{
-    display: flex;
-    justify-content: space-between;
-    padding: 5px;
-    /* width: 100%; */
-    /* border: 1px solid; */
+#fullNameNnum {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  /* width: 100%; */
+  /* border: 1px solid; */
 }
-#userEmail{
-    display: flex;
-    justify-content: left;
-    padding: 5px;
-}
-
-#addNewAddress{
-    display: flex;
-    justify-content: space-between;
-    padding-right: 10px;
-   margin-bottom: 10px;
-   margin-top: 20px;
+#userEmail {
+  display: flex;
+  justify-content: left;
+  padding: 5px;
 }
 
-
-#addNewAddress button{
-    border: none;
-    background-color: rgb(208, 208, 208);
-    height: 35px;
-    padding: 5px;
+#addNewAddress {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
 }
 
-#addressForm{
-    background-color: white;
-    position: absolute;
-    display: none;
-    z-index: 2;
-    width: 750px;
-    height: 450px;
-    border: 1.5px solid gray ;
-    top: 150px;
-    right: 480px;
-    /* visibility: hidden; */
-    padding: 20px;
+#addNewAddress button {
+  border: none;
+  background-color: rgb(208, 208, 208);
+  height: 35px;
+  padding: 5px;
 }
 
-#addrHead{
-    display: flex;
-    justify-content: left;
-    gap: 15px;
-    margin-bottom: 20px;
-}
-#addrHead img{
-    width: 25px;
-}
-
-
-#addform1{
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-#addform1 p{
-    color: gray;
-    font-size: 14px;
-}
-#addform2{
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
+#addressForm {
+  background-color: white;
+  position: absolute;
+  display: none;
+  z-index: 2;
+  width: 750px;
+  height: 450px;
+  border: 1.5px solid gray;
+  top: 150px;
+  right: 480px;
+  /* visibility: hidden; */
+  padding: 20px;
 }
 
-#addressForm input{
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    padding-left: 2px;
-    
+#addrHead {
+  display: flex;
+  justify-content: left;
+  gap: 15px;
+  margin-bottom: 20px;
 }
-#addform3{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
+#addrHead img {
+  width: 25px;
 }
 
-#pin,#country,#state,#city{
-    width: 20%;
+#addform1 {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+#addform1 p {
+  color: gray;
+  font-size: 14px;
+}
+#addform2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
 }
 
-#addressSave{
-    background-color: 
-    #fc2779;
-    height: 32px;
-    border-radius: 5px;
-    padding: 5px;
-    border: none;
-    color: white;
+#addressForm input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-left: 2px;
+}
+#addform3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
 }
 
-#cancelAddress{
-    background-color:#444444;
-    height: 32px;
-    border-radius: 5px;
-    padding: 5px;
-    border: none;
-    color: white;
+#pin,
+#country,
+#state,
+#city {
+  width: 20%;
+}
+
+#addressSave {
+  background-color: #fc2779;
+  height: 32px;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  color: white;
+}
+
+#cancelAddress {
+  background-color: #444444;
+  height: 32px;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  color: white;
 }
