@@ -24,7 +24,7 @@ const LoginPage = () => {
   const getUserData = async () => {
     try {
       let res = await axios.post(
-        "https://sugarcosmeticsclone.herokuapp.com/auth/login",
+        "https://real-gold-chimpanzee-slip.cyclic.app/auth/login",
         {
           number: +number,
         }

@@ -20,7 +20,7 @@ const Reg = () => {
   const handleRegister = async () => {
     try {
       let res = await axios.post(
-        "https://sugarcosmeticsclone.herokuapp.com/auth/register",
+        "https://real-gold-chimpanzee-slip.cyclic.app/auth/register",
         {
           fName,
           lName,

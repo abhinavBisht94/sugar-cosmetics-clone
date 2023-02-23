@@ -9,7 +9,7 @@ export const Home = () => {
 
   useEffect(() => {
     axios
-      .get("https://sugarcosmeticsclone.herokuapp.com/product")
+      .get("https://real-gold-chimpanzee-slip.cyclic.app/product")
       .then((data) => setallData(data.data))
       .catch((e) => console.log(e));
   }, []);

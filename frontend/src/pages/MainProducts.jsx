@@ -51,7 +51,7 @@ const MainProducts = () =>
     const getMainData = async () => {
       try {
         const res = await axios.get(
-          `https://sugarcosmeticsclone.herokuapp.com/product/${main}`
+          `https://real-gold-chimpanzee-slip.cyclic.app/product/${main}`
         );
         const data = await res.data;
         setData(data);

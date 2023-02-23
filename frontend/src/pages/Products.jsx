@@ -39,7 +39,7 @@ export const Products = () =>
     const getData = async () => {
       try {
         const res = await axios.get(
-          `https://sugarcosmeticsclone.herokuapp.com/product/${main}/${category}`,
+          `https://real-gold-chimpanzee-slip.cyclic.app/product/${main}/${category}`,
         )
         const data = await res.data
         setData(data)
@@ -53,7 +53,7 @@ export const Products = () =>
 
     const getMainData = async () => {
       try {
-        const res = await axios.get(`https://sugarcosmeticsclone.herokuapp.com/product/${main}`)
+        const res = await axios.get(`https://real-gold-chimpanzee-slip.cyclic.app/product/${main}`)
         const data = await res.data
         setData(data)
         console.log('data: ', data)
